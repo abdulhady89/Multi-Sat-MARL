@@ -5,9 +5,8 @@ Multi-Satellite MARL codes for ACM KDD'25 Applied Data Science Track submission
 
 Paper Title: Multi-Satellite Earth Observation Mission Autonomy: A Realistic Case Study for Multi-Agent Reinforcement Learning
 
-Authors: Mohamad Hady, Siyi Hu*, Mahardhika Pratama, Jimmy Cao, and Ryszard Kowalczyk
+Authors: Mohamad Hady, Siyi Hu, Mahardhika Pratama, Jimmy Cao, and Ryszard Kowalczyk
 
-(*) is the corresponding author
 
 This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent variant of PPO to work with Basilisk (BSK-RL), a realistic satellite simulator with Vizard 3D visualization. This implementation is heavily based on https://github.com/marlbenchmark/on-policy as the official implementation of Multi-Agent PPO (MAPPO)(paper: https://arxiv.org/abs/2103.01955). 
 
