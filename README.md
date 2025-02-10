@@ -25,12 +25,12 @@ for Centralized PPO, Decentralized PPO or Independet PPO (IPPO), MAPPO, and HAPP
 * Code to perform training rollouts and policy updates are contained within the runner/ folder - there is a runner for 
 each environment. 
 
-* Executable scripts for training with default hyperparameters can be found in the scripts/ folder. The files are named
-in the following manner: train_algo_environment.sh.
+* Executable scripts for training with default hyperparameters can be found in the scripts/train_bsk folder. The files are named
+in the following manner: train_bsk_scenario-name_algorithm-name.sh.
 * Python training scripts for each environment can be found in the scripts/train/ folder. 
 
 * The config.py file contains relevant hyperparameter and env settings. Most hyperparameters are defaulted to the ones
-used in the paper; however, please refer to the appendix for a full list of hyperparameters used. 
+used in the paper; however, please refer to the appendix of [Official MAPPO paper](https://arxiv.org/abs/2103.01955) for a full list of hyperparameters used. 
 
 
 ## 2. Installation
