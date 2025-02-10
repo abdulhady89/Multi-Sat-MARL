@@ -1,5 +1,5 @@
 # Multi-Sat-MARL
-A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as the solution of decision making process to maximize unique image capturing task.
+A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as a solution of decision making problem to maximize unique image capturing task under resource limits, uncertainties, randomness, and non-stationarity.
 
 ## This repository is a part of the ACM KDD'25 Conference Applied Data Science (ADS) Track submission
 
