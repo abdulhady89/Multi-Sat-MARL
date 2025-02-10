@@ -1,0 +1,3463 @@
+env is BSK, scenario is default, constellation is Cluster, 1 sats, algo is c_ppo, exp is res, max seed is 3
+seed is 1:
+u are choosing to use c_ppo, we set use_recurrent_policy & use_naive_recurrent_policy to be False, share_policy is  True
+choose to use gpu...
+obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+share_obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+act_space:  [Discrete(7)]
+
+ Scenario default Algo c_ppo Exp res updates 0/50 episodes, total num timesteps 225/20000, Speed 10.
+
+Episode 0 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 39 times
+    2: 29 times
+    3: 36 times
+    4: 29 times
+    5: 34 times
+    6: 31 times
+action taken in this episode: 225
+average episode rewards is 55.38407904721101
+
+ Scenario default Algo c_ppo Exp res updates 1/50 episodes, total num timesteps 474/20000, Speed 10.
+
+Episode 1 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 27 times
+    2: 35 times
+    3: 43 times
+    4: 38 times
+    5: 40 times
+    6: 33 times
+action taken in this episode: 249
+average episode rewards is 60.99947872079862
+
+ Scenario default Algo c_ppo Exp res updates 2/50 episodes, total num timesteps 756/20000, Speed 9.
+
+Episode 2 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 33 times
+    2: 44 times
+    3: 41 times
+    4: 40 times
+    5: 38 times
+    6: 44 times
+action taken in this episode: 282
+average episode rewards is 72.61962780571976
+
+ Scenario default Algo c_ppo Exp res updates 3/50 episodes, total num timesteps 985/20000, Speed 9.
+
+Episode 3 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 36 times
+    2: 37 times
+    3: 31 times
+    4: 33 times
+    5: 36 times
+    6: 28 times
+action taken in this episode: 229
+average episode rewards is 62.272778879374286
+
+ Scenario default Algo c_ppo Exp res updates 4/50 episodes, total num timesteps 1229/20000, Speed 8.
+
+Episode 4 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 45 times
+    2: 22 times
+    3: 33 times
+    4: 30 times
+    5: 33 times
+    6: 45 times
+action taken in this episode: 244
+average episode rewards is 58.425067104914945
+
+ Scenario default Algo c_ppo Exp res updates 5/50 episodes, total num timesteps 1488/20000, Speed 9.
+
+Episode 5 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 47 times
+    2: 36 times
+    3: 43 times
+    4: 29 times
+    5: 31 times
+    6: 33 times
+action taken in this episode: 259
+average episode rewards is 75.53596520453203
+
+ Scenario default Algo c_ppo Exp res updates 6/50 episodes, total num timesteps 1699/20000, Speed 8.
+
+Episode 6 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 22 times
+    2: 37 times
+    3: 32 times
+    4: 41 times
+    5: 19 times
+    6: 35 times
+action taken in this episode: 211
+average episode rewards is 50.812240963396015
+
+ Scenario default Algo c_ppo Exp res updates 7/50 episodes, total num timesteps 1948/20000, Speed 8.
+
+Episode 7 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 36 times
+    2: 41 times
+    3: 42 times
+    4: 29 times
+    5: 22 times
+    6: 38 times
+action taken in this episode: 249
+average episode rewards is 70.35905411800744
+
+ Scenario default Algo c_ppo Exp res updates 8/50 episodes, total num timesteps 2202/20000, Speed 8.
+
+Episode 8 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 25 times
+    2: 31 times
+    3: 41 times
+    4: 42 times
+    5: 38 times
+    6: 38 times
+action taken in this episode: 254
+average episode rewards is 63.54232654341339
+
+ Scenario default Algo c_ppo Exp res updates 9/50 episodes, total num timesteps 2449/20000, Speed 8.
+
+Episode 9 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 29 times
+    2: 39 times
+    3: 34 times
+    4: 38 times
+    5: 27 times
+    6: 38 times
+action taken in this episode: 247
+average episode rewards is 66.52427567158054
+
+ Scenario default Algo c_ppo Exp res updates 10/50 episodes, total num timesteps 2681/20000, Speed 8.
+
+Episode 10 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 38 times
+    2: 26 times
+    3: 44 times
+    4: 30 times
+    5: 27 times
+    6: 28 times
+action taken in this episode: 232
+average episode rewards is 63.76348452846867
+
+ Scenario default Algo c_ppo Exp res updates 11/50 episodes, total num timesteps 2915/20000, Speed 8.
+
+Episode 11 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 34 times
+    2: 35 times
+    3: 25 times
+    4: 29 times
+    5: 34 times
+    6: 36 times
+action taken in this episode: 234
+average episode rewards is 66.70004257422032
+
+ Scenario default Algo c_ppo Exp res updates 12/50 episodes, total num timesteps 3154/20000, Speed 8.
+
+Episode 12 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 32 times
+    2: 30 times
+    3: 37 times
+    4: 32 times
+    5: 36 times
+    6: 38 times
+action taken in this episode: 239
+average episode rewards is 65.96195227786785
+
+ Scenario default Algo c_ppo Exp res updates 13/50 episodes, total num timesteps 3422/20000, Speed 8.
+
+Episode 13 - Action Counts per Satellite:
+  Satellite0:
+    0: 52 times
+    1: 44 times
+    2: 35 times
+    3: 37 times
+    4: 43 times
+    5: 32 times
+    6: 25 times
+action taken in this episode: 268
+average episode rewards is 74.00428591817237
+
+ Scenario default Algo c_ppo Exp res updates 14/50 episodes, total num timesteps 3678/20000, Speed 8.
+
+Episode 14 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 46 times
+    2: 33 times
+    3: 34 times
+    4: 48 times
+    5: 27 times
+    6: 37 times
+action taken in this episode: 256
+average episode rewards is 70.49167919614341
+
+ Scenario default Algo c_ppo Exp res updates 15/50 episodes, total num timesteps 3950/20000, Speed 8.
+
+Episode 15 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 55 times
+    2: 30 times
+    3: 36 times
+    4: 41 times
+    5: 28 times
+    6: 43 times
+action taken in this episode: 272
+average episode rewards is 74.00428883168527
+
+ Scenario default Algo c_ppo Exp res updates 16/50 episodes, total num timesteps 4177/20000, Speed 8.
+
+Episode 16 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 37 times
+    2: 34 times
+    3: 33 times
+    4: 27 times
+    5: 34 times
+    6: 34 times
+action taken in this episode: 227
+average episode rewards is 51.60120700293873
+
+ Scenario default Algo c_ppo Exp res updates 17/50 episodes, total num timesteps 4423/20000, Speed 8.
+
+Episode 17 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 31 times
+    2: 40 times
+    3: 38 times
+    4: 33 times
+    5: 40 times
+    6: 26 times
+action taken in this episode: 246
+average episode rewards is 73.84657349206356
+
+ Scenario default Algo c_ppo Exp res updates 18/50 episodes, total num timesteps 4656/20000, Speed 8.
+
+Episode 18 - Action Counts per Satellite:
+  Satellite0:
+    0: 24 times
+    1: 36 times
+    2: 43 times
+    3: 31 times
+    4: 39 times
+    5: 35 times
+    6: 25 times
+action taken in this episode: 233
+average episode rewards is 60.62214144178779
+
+ Scenario default Algo c_ppo Exp res updates 19/50 episodes, total num timesteps 4913/20000, Speed 8.
+
+Episode 19 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 32 times
+    2: 43 times
+    3: 32 times
+    4: 43 times
+    5: 36 times
+    6: 34 times
+action taken in this episode: 257
+average episode rewards is 67.01912336063411
+
+ Scenario default Algo c_ppo Exp res updates 20/50 episodes, total num timesteps 5166/20000, Speed 8.
+
+Episode 20 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 39 times
+    2: 40 times
+    3: 25 times
+    4: 52 times
+    5: 35 times
+    6: 24 times
+action taken in this episode: 253
+average episode rewards is 62.177795014710306
+
+ Scenario default Algo c_ppo Exp res updates 21/50 episodes, total num timesteps 5435/20000, Speed 8.
+
+Episode 21 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 46 times
+    2: 29 times
+    3: 36 times
+    4: 37 times
+    5: 37 times
+    6: 40 times
+action taken in this episode: 269
+average episode rewards is 80.71669049680624
+
+ Scenario default Algo c_ppo Exp res updates 22/50 episodes, total num timesteps 5688/20000, Speed 8.
+
+Episode 22 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 40 times
+    2: 36 times
+    3: 35 times
+    4: 33 times
+    5: 36 times
+    6: 39 times
+action taken in this episode: 253
+average episode rewards is 63.03146266467172
+
+ Scenario default Algo c_ppo Exp res updates 23/50 episodes, total num timesteps 5907/20000, Speed 8.
+
+Episode 23 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 24 times
+    2: 35 times
+    3: 43 times
+    4: 27 times
+    5: 29 times
+    6: 24 times
+action taken in this episode: 219
+average episode rewards is 63.61054819647393
+
+ Scenario default Algo c_ppo Exp res updates 24/50 episodes, total num timesteps 6183/20000, Speed 8.
+
+Episode 24 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 35 times
+    2: 34 times
+    3: 34 times
+    4: 38 times
+    5: 47 times
+    6: 49 times
+action taken in this episode: 276
+average episode rewards is 62.305099865075114
+
+ Scenario default Algo c_ppo Exp res updates 25/50 episodes, total num timesteps 6401/20000, Speed 8.
+
+Episode 25 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 32 times
+    2: 29 times
+    3: 36 times
+    4: 23 times
+    5: 28 times
+    6: 27 times
+action taken in this episode: 218
+average episode rewards is 66.62471866276647
+
+ Scenario default Algo c_ppo Exp res updates 26/50 episodes, total num timesteps 6648/20000, Speed 7.
+
+Episode 26 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 49 times
+    2: 33 times
+    3: 27 times
+    4: 37 times
+    5: 27 times
+    6: 36 times
+action taken in this episode: 247
+average episode rewards is 73.1306409470388
+
+ Scenario default Algo c_ppo Exp res updates 27/50 episodes, total num timesteps 6887/20000, Speed 8.
+
+Episode 27 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 40 times
+    2: 35 times
+    3: 27 times
+    4: 35 times
+    5: 30 times
+    6: 39 times
+action taken in this episode: 239
+average episode rewards is 61.91360877912594
+
+ Scenario default Algo c_ppo Exp res updates 28/50 episodes, total num timesteps 7110/20000, Speed 8.
+
+Episode 28 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 35 times
+    2: 33 times
+    3: 34 times
+    4: 36 times
+    5: 27 times
+    6: 29 times
+action taken in this episode: 223
+average episode rewards is 60.23422752727007
+
+ Scenario default Algo c_ppo Exp res updates 29/50 episodes, total num timesteps 7385/20000, Speed 8.
+
+Episode 29 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 41 times
+    2: 35 times
+    3: 45 times
+    4: 43 times
+    5: 34 times
+    6: 37 times
+action taken in this episode: 275
+average episode rewards is 69.61607653545812
+
+ Scenario default Algo c_ppo Exp res updates 30/50 episodes, total num timesteps 7633/20000, Speed 8.
+
+Episode 30 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 38 times
+    2: 41 times
+    3: 30 times
+    4: 40 times
+    5: 39 times
+    6: 30 times
+action taken in this episode: 248
+average episode rewards is 61.773748243647965
+
+ Scenario default Algo c_ppo Exp res updates 31/50 episodes, total num timesteps 7885/20000, Speed 8.
+
+Episode 31 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 41 times
+    2: 38 times
+    3: 38 times
+    4: 38 times
+    5: 28 times
+    6: 37 times
+action taken in this episode: 252
+average episode rewards is 72.82291225190349
+
+ Scenario default Algo c_ppo Exp res updates 32/50 episodes, total num timesteps 8187/20000, Speed 8.
+
+Episode 32 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 42 times
+    2: 51 times
+    3: 33 times
+    4: 44 times
+    5: 37 times
+    6: 47 times
+action taken in this episode: 302
+average episode rewards is 70.25081132924971
+
+ Scenario default Algo c_ppo Exp res updates 33/50 episodes, total num timesteps 8466/20000, Speed 8.
+
+Episode 33 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 43 times
+    2: 36 times
+    3: 42 times
+    4: 35 times
+    5: 42 times
+    6: 37 times
+action taken in this episode: 279
+average episode rewards is 72.07625873293568
+
+ Scenario default Algo c_ppo Exp res updates 34/50 episodes, total num timesteps 8716/20000, Speed 8.
+
+Episode 34 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 32 times
+    2: 41 times
+    3: 32 times
+    4: 32 times
+    5: 29 times
+    6: 41 times
+action taken in this episode: 250
+average episode rewards is 64.74777697373595
+
+ Scenario default Algo c_ppo Exp res updates 35/50 episodes, total num timesteps 8961/20000, Speed 8.
+
+Episode 35 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 36 times
+    2: 40 times
+    3: 37 times
+    4: 30 times
+    5: 36 times
+    6: 35 times
+action taken in this episode: 245
+average episode rewards is 70.21957941070309
+
+ Scenario default Algo c_ppo Exp res updates 36/50 episodes, total num timesteps 9202/20000, Speed 7.
+
+Episode 36 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 39 times
+    2: 43 times
+    3: 32 times
+    4: 35 times
+    5: 37 times
+    6: 25 times
+action taken in this episode: 241
+average episode rewards is 58.02665477215022
+
+ Scenario default Algo c_ppo Exp res updates 37/50 episodes, total num timesteps 9468/20000, Speed 8.
+
+Episode 37 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 39 times
+    2: 43 times
+    3: 35 times
+    4: 40 times
+    5: 40 times
+    6: 33 times
+action taken in this episode: 266
+average episode rewards is 72.44758153270536
+
+ Scenario default Algo c_ppo Exp res updates 38/50 episodes, total num timesteps 9696/20000, Speed 7.
+
+Episode 38 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 34 times
+    2: 37 times
+    3: 29 times
+    4: 33 times
+    5: 34 times
+    6: 26 times
+action taken in this episode: 228
+average episode rewards is 68.17962458391452
+
+ Scenario default Algo c_ppo Exp res updates 39/50 episodes, total num timesteps 9949/20000, Speed 7.
+
+Episode 39 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 44 times
+    2: 40 times
+    3: 39 times
+    4: 23 times
+    5: 37 times
+    6: 26 times
+action taken in this episode: 253
+average episode rewards is 65.86415132605373
+
+ Scenario default Algo c_ppo Exp res updates 40/50 episodes, total num timesteps 10222/20000, Speed 7.
+
+Episode 40 - Action Counts per Satellite:
+  Satellite0:
+    0: 50 times
+    1: 36 times
+    2: 43 times
+    3: 42 times
+    4: 37 times
+    5: 36 times
+    6: 29 times
+action taken in this episode: 273
+average episode rewards is 76.0270952507486
+
+ Scenario default Algo c_ppo Exp res updates 41/50 episodes, total num timesteps 10474/20000, Speed 7.
+
+Episode 41 - Action Counts per Satellite:
+  Satellite0:
+    0: 24 times
+    1: 43 times
+    2: 41 times
+    3: 40 times
+    4: 33 times
+    5: 38 times
+    6: 33 times
+action taken in this episode: 252
+average episode rewards is 68.78323134274562
+
+ Scenario default Algo c_ppo Exp res updates 42/50 episodes, total num timesteps 10683/20000, Speed 7.
+
+Episode 42 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 31 times
+    2: 43 times
+    3: 33 times
+    4: 27 times
+    5: 26 times
+    6: 26 times
+action taken in this episode: 209
+average episode rewards is 62.27718033594523
+
+ Scenario default Algo c_ppo Exp res updates 43/50 episodes, total num timesteps 10932/20000, Speed 7.
+
+Episode 43 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 46 times
+    2: 40 times
+    3: 29 times
+    4: 29 times
+    5: 41 times
+    6: 28 times
+action taken in this episode: 249
+average episode rewards is 70.71930580058154
+
+ Scenario default Algo c_ppo Exp res updates 44/50 episodes, total num timesteps 11199/20000, Speed 7.
+
+Episode 44 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 41 times
+    2: 45 times
+    3: 44 times
+    4: 47 times
+    5: 28 times
+    6: 30 times
+action taken in this episode: 267
+average episode rewards is 73.54655112787175
+
+ Scenario default Algo c_ppo Exp res updates 45/50 episodes, total num timesteps 11419/20000, Speed 7.
+
+Episode 45 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 38 times
+    2: 34 times
+    3: 39 times
+    4: 35 times
+    5: 30 times
+    6: 17 times
+action taken in this episode: 220
+average episode rewards is 61.02776535468067
+
+ Scenario default Algo c_ppo Exp res updates 46/50 episodes, total num timesteps 11635/20000, Speed 7.
+
+Episode 46 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 38 times
+    2: 33 times
+    3: 35 times
+    4: 24 times
+    5: 36 times
+    6: 22 times
+action taken in this episode: 216
+average episode rewards is 53.606279669583685
+
+ Scenario default Algo c_ppo Exp res updates 47/50 episodes, total num timesteps 11860/20000, Speed 7.
+
+Episode 47 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 37 times
+    2: 33 times
+    3: 42 times
+    4: 29 times
+    5: 36 times
+    6: 23 times
+action taken in this episode: 225
+average episode rewards is 65.33503458328885
+
+ Scenario default Algo c_ppo Exp res updates 48/50 episodes, total num timesteps 12084/20000, Speed 7.
+
+Episode 48 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 37 times
+    2: 30 times
+    3: 41 times
+    4: 31 times
+    5: 28 times
+    6: 26 times
+action taken in this episode: 224
+average episode rewards is 65.04175826991515
+
+ Scenario default Algo c_ppo Exp res updates 49/50 episodes, total num timesteps 12329/20000, Speed 7.
+
+Episode 49 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 36 times
+    2: 31 times
+    3: 42 times
+    4: 28 times
+    5: 35 times
+    6: 34 times
+action taken in this episode: 245
+average episode rewards is 66.75342768755584
+
+ Scenario default Algo c_ppo Exp res updates 50/50 episodes, total num timesteps 12541/20000, Speed 7.
+
+Episode 50 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 34 times
+    2: 27 times
+    3: 32 times
+    4: 20 times
+    5: 29 times
+    6: 29 times
+action taken in this episode: 212
+average episode rewards is 62.13188657538112
+
+ Scenario default Algo c_ppo Exp res updates 51/50 episodes, total num timesteps 12776/20000, Speed 7.
+
+Episode 51 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 33 times
+    2: 35 times
+    3: 36 times
+    4: 31 times
+    5: 30 times
+    6: 26 times
+action taken in this episode: 235
+average episode rewards is 62.218125539940296
+
+ Scenario default Algo c_ppo Exp res updates 52/50 episodes, total num timesteps 12994/20000, Speed 7.
+
+Episode 52 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 25 times
+    2: 29 times
+    3: 42 times
+    4: 27 times
+    5: 29 times
+    6: 28 times
+action taken in this episode: 218
+average episode rewards is 60.70241237571355
+
+ Scenario default Algo c_ppo Exp res updates 53/50 episodes, total num timesteps 13283/20000, Speed 7.
+
+Episode 53 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 57 times
+    2: 31 times
+    3: 42 times
+    4: 32 times
+    5: 40 times
+    6: 44 times
+action taken in this episode: 289
+average episode rewards is 81.9542978871198
+
+ Scenario default Algo c_ppo Exp res updates 54/50 episodes, total num timesteps 13533/20000, Speed 7.
+
+Episode 54 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 36 times
+    2: 43 times
+    3: 34 times
+    4: 37 times
+    5: 43 times
+    6: 29 times
+action taken in this episode: 250
+average episode rewards is 63.87634761155387
+
+ Scenario default Algo c_ppo Exp res updates 55/50 episodes, total num timesteps 13772/20000, Speed 7.
+
+Episode 55 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 33 times
+    2: 47 times
+    3: 38 times
+    4: 33 times
+    5: 28 times
+    6: 33 times
+action taken in this episode: 239
+average episode rewards is 73.45349517850693
+
+ Scenario default Algo c_ppo Exp res updates 56/50 episodes, total num timesteps 14016/20000, Speed 7.
+
+Episode 56 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 26 times
+    2: 36 times
+    3: 41 times
+    4: 37 times
+    5: 42 times
+    6: 32 times
+action taken in this episode: 244
+average episode rewards is 56.80340369897492
+
+ Scenario default Algo c_ppo Exp res updates 57/50 episodes, total num timesteps 14278/20000, Speed 7.
+
+Episode 57 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 42 times
+    2: 41 times
+    3: 31 times
+    4: 40 times
+    5: 40 times
+    6: 36 times
+action taken in this episode: 262
+average episode rewards is 59.50547577631072
+
+ Scenario default Algo c_ppo Exp res updates 58/50 episodes, total num timesteps 14552/20000, Speed 7.
+
+Episode 58 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 44 times
+    2: 51 times
+    3: 31 times
+    4: 42 times
+    5: 39 times
+    6: 29 times
+action taken in this episode: 274
+average episode rewards is 74.1447033152122
+
+ Scenario default Algo c_ppo Exp res updates 59/50 episodes, total num timesteps 14817/20000, Speed 7.
+
+Episode 59 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 34 times
+    2: 37 times
+    3: 45 times
+    4: 32 times
+    5: 40 times
+    6: 37 times
+action taken in this episode: 265
+average episode rewards is 70.36901510350701
+
+ Scenario default Algo c_ppo Exp res updates 60/50 episodes, total num timesteps 15054/20000, Speed 7.
+
+Episode 60 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 38 times
+    2: 39 times
+    3: 39 times
+    4: 21 times
+    5: 33 times
+    6: 36 times
+action taken in this episode: 237
+average episode rewards is 64.51374856814091
+
+ Scenario default Algo c_ppo Exp res updates 61/50 episodes, total num timesteps 15303/20000, Speed 7.
+
+Episode 61 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 37 times
+    2: 45 times
+    3: 36 times
+    4: 31 times
+    5: 34 times
+    6: 34 times
+action taken in this episode: 249
+average episode rewards is 66.33297390260071
+
+ Scenario default Algo c_ppo Exp res updates 62/50 episodes, total num timesteps 15550/20000, Speed 7.
+
+Episode 62 - Action Counts per Satellite:
+  Satellite0:
+    0: 49 times
+    1: 34 times
+    2: 32 times
+    3: 31 times
+    4: 27 times
+    5: 36 times
+    6: 38 times
+action taken in this episode: 247
+average episode rewards is 69.18078933806122
+
+ Scenario default Algo c_ppo Exp res updates 63/50 episodes, total num timesteps 15788/20000, Speed 7.
+
+Episode 63 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 42 times
+    2: 30 times
+    3: 41 times
+    4: 34 times
+    5: 28 times
+    6: 28 times
+action taken in this episode: 238
+average episode rewards is 62.70136987578702
+
+ Scenario default Algo c_ppo Exp res updates 64/50 episodes, total num timesteps 16016/20000, Speed 7.
+
+Episode 64 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 33 times
+    2: 38 times
+    3: 33 times
+    4: 36 times
+    5: 36 times
+    6: 25 times
+action taken in this episode: 228
+average episode rewards is 64.73905979870742
+
+ Scenario default Algo c_ppo Exp res updates 65/50 episodes, total num timesteps 16270/20000, Speed 7.
+
+Episode 65 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 44 times
+    2: 41 times
+    3: 43 times
+    4: 26 times
+    5: 26 times
+    6: 36 times
+action taken in this episode: 254
+average episode rewards is 78.39500423737408
+
+ Scenario default Algo c_ppo Exp res updates 66/50 episodes, total num timesteps 16486/20000, Speed 7.
+
+Episode 66 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 23 times
+    2: 41 times
+    3: 42 times
+    4: 25 times
+    5: 35 times
+    6: 24 times
+action taken in this episode: 216
+average episode rewards is 63.93913114326095
+
+ Scenario default Algo c_ppo Exp res updates 67/50 episodes, total num timesteps 16742/20000, Speed 7.
+
+Episode 67 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 34 times
+    2: 40 times
+    3: 38 times
+    4: 40 times
+    5: 27 times
+    6: 35 times
+action taken in this episode: 256
+average episode rewards is 69.4512488071609
+
+ Scenario default Algo c_ppo Exp res updates 68/50 episodes, total num timesteps 16970/20000, Speed 7.
+
+Episode 68 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 29 times
+    2: 52 times
+    3: 32 times
+    4: 29 times
+    5: 23 times
+    6: 24 times
+action taken in this episode: 228
+average episode rewards is 72.94419182499817
+
+ Scenario default Algo c_ppo Exp res updates 69/50 episodes, total num timesteps 17212/20000, Speed 7.
+
+Episode 69 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 38 times
+    2: 42 times
+    3: 39 times
+    4: 20 times
+    5: 32 times
+    6: 31 times
+action taken in this episode: 242
+average episode rewards is 71.50237161654915
+
+ Scenario default Algo c_ppo Exp res updates 70/50 episodes, total num timesteps 17441/20000, Speed 7.
+
+Episode 70 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 37 times
+    2: 37 times
+    3: 31 times
+    4: 31 times
+    5: 39 times
+    6: 20 times
+action taken in this episode: 229
+average episode rewards is 66.04240425816685
+
+ Scenario default Algo c_ppo Exp res updates 71/50 episodes, total num timesteps 17698/20000, Speed 7.
+
+Episode 71 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 42 times
+    2: 45 times
+    3: 34 times
+    4: 28 times
+    5: 35 times
+    6: 34 times
+action taken in this episode: 257
+average episode rewards is 75.9397710760611
+
+ Scenario default Algo c_ppo Exp res updates 72/50 episodes, total num timesteps 17946/20000, Speed 7.
+
+Episode 72 - Action Counts per Satellite:
+  Satellite0:
+    0: 47 times
+    1: 28 times
+    2: 35 times
+    3: 39 times
+    4: 30 times
+    5: 31 times
+    6: 38 times
+action taken in this episode: 248
+average episode rewards is 70.08203026964387
+
+ Scenario default Algo c_ppo Exp res updates 73/50 episodes, total num timesteps 18218/20000, Speed 7.
+
+Episode 73 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 46 times
+    2: 37 times
+    3: 33 times
+    4: 35 times
+    5: 44 times
+    6: 36 times
+action taken in this episode: 272
+average episode rewards is 69.1149355679252
+
+ Scenario default Algo c_ppo Exp res updates 74/50 episodes, total num timesteps 18472/20000, Speed 7.
+
+Episode 74 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 29 times
+    2: 43 times
+    3: 35 times
+    4: 30 times
+    5: 37 times
+    6: 40 times
+action taken in this episode: 254
+average episode rewards is 68.09902084856245
+
+ Scenario default Algo c_ppo Exp res updates 75/50 episodes, total num timesteps 18677/20000, Speed 7.
+
+Episode 75 - Action Counts per Satellite:
+  Satellite0:
+    0: 21 times
+    1: 38 times
+    2: 36 times
+    3: 36 times
+    4: 26 times
+    5: 28 times
+    6: 20 times
+action taken in this episode: 205
+average episode rewards is 63.62520642479798
+
+ Scenario default Algo c_ppo Exp res updates 76/50 episodes, total num timesteps 18898/20000, Speed 7.
+
+Episode 76 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 32 times
+    2: 38 times
+    3: 39 times
+    4: 24 times
+    5: 23 times
+    6: 24 times
+action taken in this episode: 221
+average episode rewards is 73.13389713229716
+
+ Scenario default Algo c_ppo Exp res updates 77/50 episodes, total num timesteps 19161/20000, Speed 7.
+
+Episode 77 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 38 times
+    2: 28 times
+    3: 46 times
+    4: 37 times
+    5: 32 times
+    6: 51 times
+action taken in this episode: 263
+average episode rewards is 74.74706052790197
+
+ Scenario default Algo c_ppo Exp res updates 78/50 episodes, total num timesteps 19406/20000, Speed 7.
+
+Episode 78 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 39 times
+    2: 34 times
+    3: 32 times
+    4: 32 times
+    5: 32 times
+    6: 35 times
+action taken in this episode: 245
+average episode rewards is 67.00969464870289
+
+ Scenario default Algo c_ppo Exp res updates 79/50 episodes, total num timesteps 19675/20000, Speed 7.
+
+Episode 79 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 46 times
+    2: 34 times
+    3: 42 times
+    4: 43 times
+    5: 29 times
+    6: 34 times
+action taken in this episode: 269
+average episode rewards is 80.39494046069191
+
+ Scenario default Algo c_ppo Exp res updates 80/50 episodes, total num timesteps 19945/20000, Speed 7.
+
+Episode 80 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 35 times
+    2: 47 times
+    3: 47 times
+    4: 32 times
+    5: 36 times
+    6: 30 times
+action taken in this episode: 270
+average episode rewards is 81.12880824495674
+
+ Scenario default Algo c_ppo Exp res updates 81/50 episodes, total num timesteps 20212/20000, Speed 7.
+
+Episode 81 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 41 times
+    2: 32 times
+    3: 36 times
+    4: 39 times
+    5: 37 times
+    6: 39 times
+action taken in this episode: 267
+average episode rewards is 68.15062959353541
+seed is 2:
+u are choosing to use c_ppo, we set use_recurrent_policy & use_naive_recurrent_policy to be False, share_policy is  True
+choose to use gpu...
+obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+share_obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+act_space:  [Discrete(7)]
+
+ Scenario default Algo c_ppo Exp res updates 0/50 episodes, total num timesteps 240/20000, Speed 6.
+
+Episode 0 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 34 times
+    2: 44 times
+    3: 35 times
+    4: 37 times
+    5: 34 times
+    6: 30 times
+action taken in this episode: 240
+average episode rewards is 57.66268555291337
+
+ Scenario default Algo c_ppo Exp res updates 1/50 episodes, total num timesteps 500/20000, Speed 9.
+
+Episode 1 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 41 times
+    2: 51 times
+    3: 23 times
+    4: 25 times
+    5: 28 times
+    6: 51 times
+action taken in this episode: 260
+average episode rewards is 67.02912517609806
+
+ Scenario default Algo c_ppo Exp res updates 2/50 episodes, total num timesteps 754/20000, Speed 9.
+
+Episode 2 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 40 times
+    2: 33 times
+    3: 38 times
+    4: 38 times
+    5: 40 times
+    6: 35 times
+action taken in this episode: 254
+average episode rewards is 68.7807629338737
+
+ Scenario default Algo c_ppo Exp res updates 3/50 episodes, total num timesteps 1016/20000, Speed 10.
+
+Episode 3 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 42 times
+    2: 42 times
+    3: 37 times
+    4: 35 times
+    5: 37 times
+    6: 37 times
+action taken in this episode: 262
+average episode rewards is 67.86852147565979
+
+ Scenario default Algo c_ppo Exp res updates 4/50 episodes, total num timesteps 1280/20000, Speed 9.
+
+Episode 4 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 36 times
+    2: 43 times
+    3: 34 times
+    4: 38 times
+    5: 41 times
+    6: 36 times
+action taken in this episode: 264
+average episode rewards is 71.32709282175333
+
+ Scenario default Algo c_ppo Exp res updates 5/50 episodes, total num timesteps 1520/20000, Speed 9.
+
+Episode 5 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 32 times
+    2: 37 times
+    3: 33 times
+    4: 30 times
+    5: 38 times
+    6: 36 times
+action taken in this episode: 240
+average episode rewards is 61.99899801717038
+
+ Scenario default Algo c_ppo Exp res updates 6/50 episodes, total num timesteps 1754/20000, Speed 8.
+
+Episode 6 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 39 times
+    2: 38 times
+    3: 28 times
+    4: 30 times
+    5: 35 times
+    6: 33 times
+action taken in this episode: 234
+average episode rewards is 69.68553963609068
+
+ Scenario default Algo c_ppo Exp res updates 7/50 episodes, total num timesteps 1989/20000, Speed 8.
+
+Episode 7 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 43 times
+    2: 40 times
+    3: 37 times
+    4: 26 times
+    5: 32 times
+    6: 30 times
+action taken in this episode: 235
+average episode rewards is 67.5063574557708
+
+ Scenario default Algo c_ppo Exp res updates 8/50 episodes, total num timesteps 2250/20000, Speed 8.
+
+Episode 8 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 46 times
+    2: 33 times
+    3: 44 times
+    4: 35 times
+    5: 34 times
+    6: 33 times
+action taken in this episode: 261
+average episode rewards is 78.364521643437
+
+ Scenario default Algo c_ppo Exp res updates 9/50 episodes, total num timesteps 2495/20000, Speed 8.
+
+Episode 9 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 35 times
+    2: 35 times
+    3: 45 times
+    4: 25 times
+    5: 30 times
+    6: 44 times
+action taken in this episode: 245
+average episode rewards is 68.03487560355391
+
+ Scenario default Algo c_ppo Exp res updates 10/50 episodes, total num timesteps 2760/20000, Speed 8.
+
+Episode 10 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 38 times
+    2: 36 times
+    3: 41 times
+    4: 37 times
+    5: 43 times
+    6: 35 times
+action taken in this episode: 265
+average episode rewards is 66.31363013021578
+
+ Scenario default Algo c_ppo Exp res updates 11/50 episodes, total num timesteps 2998/20000, Speed 8.
+
+Episode 11 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 31 times
+    2: 32 times
+    3: 41 times
+    4: 27 times
+    5: 39 times
+    6: 40 times
+action taken in this episode: 238
+average episode rewards is 65.12459469778587
+
+ Scenario default Algo c_ppo Exp res updates 12/50 episodes, total num timesteps 3256/20000, Speed 8.
+
+Episode 12 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 43 times
+    2: 34 times
+    3: 41 times
+    4: 37 times
+    5: 31 times
+    6: 39 times
+action taken in this episode: 258
+average episode rewards is 72.69886306791771
+
+ Scenario default Algo c_ppo Exp res updates 13/50 episodes, total num timesteps 3501/20000, Speed 8.
+
+Episode 13 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 31 times
+    2: 34 times
+    3: 35 times
+    4: 29 times
+    5: 49 times
+    6: 36 times
+action taken in this episode: 245
+average episode rewards is 63.89824113079833
+
+ Scenario default Algo c_ppo Exp res updates 14/50 episodes, total num timesteps 3728/20000, Speed 8.
+
+Episode 14 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 41 times
+    2: 36 times
+    3: 30 times
+    4: 34 times
+    5: 22 times
+    6: 31 times
+action taken in this episode: 227
+average episode rewards is 62.478522596513365
+
+ Scenario default Algo c_ppo Exp res updates 15/50 episodes, total num timesteps 3961/20000, Speed 8.
+
+Episode 15 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 41 times
+    2: 43 times
+    3: 28 times
+    4: 34 times
+    5: 29 times
+    6: 33 times
+action taken in this episode: 233
+average episode rewards is 65.18781118338768
+
+ Scenario default Algo c_ppo Exp res updates 16/50 episodes, total num timesteps 4184/20000, Speed 8.
+
+Episode 16 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 44 times
+    2: 24 times
+    3: 41 times
+    4: 30 times
+    5: 26 times
+    6: 26 times
+action taken in this episode: 223
+average episode rewards is 60.039559013149564
+
+ Scenario default Algo c_ppo Exp res updates 17/50 episodes, total num timesteps 4420/20000, Speed 8.
+
+Episode 17 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 30 times
+    2: 34 times
+    3: 38 times
+    4: 31 times
+    5: 27 times
+    6: 32 times
+action taken in this episode: 236
+average episode rewards is 69.07239107774195
+
+ Scenario default Algo c_ppo Exp res updates 18/50 episodes, total num timesteps 4666/20000, Speed 8.
+
+Episode 18 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 34 times
+    2: 29 times
+    3: 45 times
+    4: 29 times
+    5: 34 times
+    6: 41 times
+action taken in this episode: 246
+average episode rewards is 63.832088994391334
+
+ Scenario default Algo c_ppo Exp res updates 19/50 episodes, total num timesteps 4893/20000, Speed 8.
+
+Episode 19 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 32 times
+    2: 31 times
+    3: 49 times
+    4: 24 times
+    5: 30 times
+    6: 25 times
+action taken in this episode: 227
+average episode rewards is 68.54708616137874
+
+ Scenario default Algo c_ppo Exp res updates 20/50 episodes, total num timesteps 5108/20000, Speed 7.
+
+Episode 20 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 28 times
+    2: 23 times
+    3: 30 times
+    4: 31 times
+    5: 26 times
+    6: 40 times
+action taken in this episode: 215
+average episode rewards is 54.66483695081058
+
+ Scenario default Algo c_ppo Exp res updates 21/50 episodes, total num timesteps 5379/20000, Speed 7.
+
+Episode 21 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 28 times
+    2: 36 times
+    3: 47 times
+    4: 36 times
+    5: 47 times
+    6: 36 times
+action taken in this episode: 271
+average episode rewards is 68.82398257337265
+
+ Scenario default Algo c_ppo Exp res updates 22/50 episodes, total num timesteps 5630/20000, Speed 7.
+
+Episode 22 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 49 times
+    2: 26 times
+    3: 34 times
+    4: 34 times
+    5: 42 times
+    6: 30 times
+action taken in this episode: 251
+average episode rewards is 67.11702421962681
+
+ Scenario default Algo c_ppo Exp res updates 23/50 episodes, total num timesteps 5865/20000, Speed 7.
+
+Episode 23 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 36 times
+    2: 27 times
+    3: 42 times
+    4: 44 times
+    5: 37 times
+    6: 21 times
+action taken in this episode: 235
+average episode rewards is 61.495196434724264
+
+ Scenario default Algo c_ppo Exp res updates 24/50 episodes, total num timesteps 6120/20000, Speed 7.
+
+Episode 24 - Action Counts per Satellite:
+  Satellite0:
+    0: 47 times
+    1: 40 times
+    2: 33 times
+    3: 45 times
+    4: 26 times
+    5: 31 times
+    6: 33 times
+action taken in this episode: 255
+average episode rewards is 85.39085635074987
+
+ Scenario default Algo c_ppo Exp res updates 25/50 episodes, total num timesteps 6373/20000, Speed 7.
+
+Episode 25 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 37 times
+    2: 24 times
+    3: 41 times
+    4: 39 times
+    5: 35 times
+    6: 35 times
+action taken in this episode: 253
+average episode rewards is 69.27040117712322
+
+ Scenario default Algo c_ppo Exp res updates 26/50 episodes, total num timesteps 6586/20000, Speed 7.
+
+Episode 26 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 40 times
+    2: 40 times
+    3: 34 times
+    4: 29 times
+    5: 16 times
+    6: 22 times
+action taken in this episode: 213
+average episode rewards is 73.74662647671593
+
+ Scenario default Algo c_ppo Exp res updates 27/50 episodes, total num timesteps 6822/20000, Speed 7.
+
+Episode 27 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 40 times
+    2: 37 times
+    3: 38 times
+    4: 26 times
+    5: 29 times
+    6: 34 times
+action taken in this episode: 236
+average episode rewards is 71.37819987120793
+
+ Scenario default Algo c_ppo Exp res updates 28/50 episodes, total num timesteps 7052/20000, Speed 7.
+
+Episode 28 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 28 times
+    2: 31 times
+    3: 45 times
+    4: 25 times
+    5: 37 times
+    6: 24 times
+action taken in this episode: 230
+average episode rewards is 68.14188727235452
+
+ Scenario default Algo c_ppo Exp res updates 29/50 episodes, total num timesteps 7312/20000, Speed 7.
+
+Episode 29 - Action Counts per Satellite:
+  Satellite0:
+    0: 24 times
+    1: 43 times
+    2: 44 times
+    3: 36 times
+    4: 40 times
+    5: 41 times
+    6: 32 times
+action taken in this episode: 260
+average episode rewards is 69.81071806059785
+
+ Scenario default Algo c_ppo Exp res updates 30/50 episodes, total num timesteps 7570/20000, Speed 7.
+
+Episode 30 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 31 times
+    2: 41 times
+    3: 42 times
+    4: 33 times
+    5: 36 times
+    6: 32 times
+action taken in this episode: 258
+average episode rewards is 69.74364498831714
+
+ Scenario default Algo c_ppo Exp res updates 31/50 episodes, total num timesteps 7790/20000, Speed 7.
+
+Episode 31 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 32 times
+    2: 36 times
+    3: 38 times
+    4: 25 times
+    5: 29 times
+    6: 31 times
+action taken in this episode: 220
+average episode rewards is 65.66768030554792
+
+ Scenario default Algo c_ppo Exp res updates 32/50 episodes, total num timesteps 8011/20000, Speed 7.
+
+Episode 32 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 31 times
+    2: 35 times
+    3: 39 times
+    4: 31 times
+    5: 28 times
+    6: 22 times
+action taken in this episode: 221
+average episode rewards is 65.98547370280528
+
+ Scenario default Algo c_ppo Exp res updates 33/50 episodes, total num timesteps 8281/20000, Speed 7.
+
+Episode 33 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 43 times
+    2: 44 times
+    3: 31 times
+    4: 25 times
+    5: 49 times
+    6: 30 times
+action taken in this episode: 270
+average episode rewards is 71.95742393912457
+
+ Scenario default Algo c_ppo Exp res updates 34/50 episodes, total num timesteps 8520/20000, Speed 7.
+
+Episode 34 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 37 times
+    2: 25 times
+    3: 34 times
+    4: 32 times
+    5: 33 times
+    6: 35 times
+action taken in this episode: 239
+average episode rewards is 64.5595391301414
+
+ Scenario default Algo c_ppo Exp res updates 35/50 episodes, total num timesteps 8778/20000, Speed 7.
+
+Episode 35 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 31 times
+    2: 39 times
+    3: 43 times
+    4: 41 times
+    5: 40 times
+    6: 28 times
+action taken in this episode: 258
+average episode rewards is 74.67178551235959
+
+ Scenario default Algo c_ppo Exp res updates 36/50 episodes, total num timesteps 9031/20000, Speed 7.
+
+Episode 36 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 30 times
+    2: 34 times
+    3: 37 times
+    4: 36 times
+    5: 27 times
+    6: 46 times
+action taken in this episode: 253
+average episode rewards is 63.166026507145375
+
+ Scenario default Algo c_ppo Exp res updates 37/50 episodes, total num timesteps 9335/20000, Speed 7.
+
+Episode 37 - Action Counts per Satellite:
+  Satellite0:
+    0: 52 times
+    1: 40 times
+    2: 41 times
+    3: 41 times
+    4: 50 times
+    5: 37 times
+    6: 43 times
+action taken in this episode: 304
+average episode rewards is 75.42928311185646
+
+ Scenario default Algo c_ppo Exp res updates 38/50 episodes, total num timesteps 9570/20000, Speed 7.
+
+Episode 38 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 36 times
+    2: 44 times
+    3: 33 times
+    4: 22 times
+    5: 36 times
+    6: 27 times
+action taken in this episode: 235
+average episode rewards is 66.25118366152832
+
+ Scenario default Algo c_ppo Exp res updates 39/50 episodes, total num timesteps 9828/20000, Speed 7.
+
+Episode 39 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 32 times
+    2: 38 times
+    3: 43 times
+    4: 39 times
+    5: 44 times
+    6: 23 times
+action taken in this episode: 258
+average episode rewards is 69.1187758061094
+
+ Scenario default Algo c_ppo Exp res updates 40/50 episodes, total num timesteps 10102/20000, Speed 7.
+
+Episode 40 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 36 times
+    2: 40 times
+    3: 35 times
+    4: 52 times
+    5: 38 times
+    6: 38 times
+action taken in this episode: 274
+average episode rewards is 65.34494994795303
+
+ Scenario default Algo c_ppo Exp res updates 41/50 episodes, total num timesteps 10364/20000, Speed 7.
+
+Episode 41 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 29 times
+    2: 44 times
+    3: 38 times
+    4: 44 times
+    5: 34 times
+    6: 40 times
+action taken in this episode: 262
+average episode rewards is 61.03548975045835
+
+ Scenario default Algo c_ppo Exp res updates 42/50 episodes, total num timesteps 10599/20000, Speed 7.
+
+Episode 42 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 26 times
+    2: 46 times
+    3: 33 times
+    4: 33 times
+    5: 30 times
+    6: 30 times
+action taken in this episode: 235
+average episode rewards is 68.00111264627168
+
+ Scenario default Algo c_ppo Exp res updates 43/50 episodes, total num timesteps 10802/20000, Speed 7.
+
+Episode 43 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 28 times
+    2: 29 times
+    3: 28 times
+    4: 17 times
+    5: 41 times
+    6: 27 times
+action taken in this episode: 203
+average episode rewards is 61.16260074714356
+
+ Scenario default Algo c_ppo Exp res updates 44/50 episodes, total num timesteps 11056/20000, Speed 7.
+
+Episode 44 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 30 times
+    2: 46 times
+    3: 35 times
+    4: 35 times
+    5: 31 times
+    6: 40 times
+action taken in this episode: 254
+average episode rewards is 68.11492981957133
+
+ Scenario default Algo c_ppo Exp res updates 45/50 episodes, total num timesteps 11282/20000, Speed 7.
+
+Episode 45 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 30 times
+    2: 33 times
+    3: 39 times
+    4: 27 times
+    5: 33 times
+    6: 34 times
+action taken in this episode: 226
+average episode rewards is 65.05305068956918
+
+ Scenario default Algo c_ppo Exp res updates 46/50 episodes, total num timesteps 11481/20000, Speed 7.
+
+Episode 46 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 33 times
+    2: 50 times
+    3: 29 times
+    4: 27 times
+    5: 18 times
+    6: 17 times
+action taken in this episode: 199
+average episode rewards is 70.41874844469207
+
+ Scenario default Algo c_ppo Exp res updates 47/50 episodes, total num timesteps 11708/20000, Speed 7.
+
+Episode 47 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 27 times
+    2: 40 times
+    3: 44 times
+    4: 33 times
+    5: 25 times
+    6: 25 times
+action taken in this episode: 227
+average episode rewards is 65.15617924603625
+
+ Scenario default Algo c_ppo Exp res updates 48/50 episodes, total num timesteps 11964/20000, Speed 7.
+
+Episode 48 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 35 times
+    2: 37 times
+    3: 46 times
+    4: 34 times
+    5: 28 times
+    6: 34 times
+action taken in this episode: 256
+average episode rewards is 78.06102444068607
+
+ Scenario default Algo c_ppo Exp res updates 49/50 episodes, total num timesteps 12240/20000, Speed 7.
+
+Episode 49 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 32 times
+    2: 52 times
+    3: 36 times
+    4: 42 times
+    5: 33 times
+    6: 42 times
+action taken in this episode: 276
+average episode rewards is 70.89269451552728
+
+ Scenario default Algo c_ppo Exp res updates 50/50 episodes, total num timesteps 12528/20000, Speed 7.
+
+Episode 50 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 27 times
+    2: 44 times
+    3: 39 times
+    4: 47 times
+    5: 50 times
+    6: 44 times
+action taken in this episode: 288
+average episode rewards is 67.09255387233326
+
+ Scenario default Algo c_ppo Exp res updates 51/50 episodes, total num timesteps 12777/20000, Speed 7.
+
+Episode 51 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 43 times
+    2: 38 times
+    3: 46 times
+    4: 34 times
+    5: 28 times
+    6: 31 times
+action taken in this episode: 249
+average episode rewards is 69.08717287325472
+
+ Scenario default Algo c_ppo Exp res updates 52/50 episodes, total num timesteps 13042/20000, Speed 7.
+
+Episode 52 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 33 times
+    2: 54 times
+    3: 33 times
+    4: 38 times
+    5: 51 times
+    6: 33 times
+action taken in this episode: 265
+average episode rewards is 68.7132073654724
+
+ Scenario default Algo c_ppo Exp res updates 53/50 episodes, total num timesteps 13248/20000, Speed 7.
+
+Episode 53 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 28 times
+    2: 34 times
+    3: 34 times
+    4: 28 times
+    5: 32 times
+    6: 24 times
+action taken in this episode: 206
+average episode rewards is 55.005927734201194
+
+ Scenario default Algo c_ppo Exp res updates 54/50 episodes, total num timesteps 13482/20000, Speed 7.
+
+Episode 54 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 31 times
+    2: 27 times
+    3: 36 times
+    4: 33 times
+    5: 33 times
+    6: 31 times
+action taken in this episode: 234
+average episode rewards is 63.937854096658356
+
+ Scenario default Algo c_ppo Exp res updates 55/50 episodes, total num timesteps 13711/20000, Speed 7.
+
+Episode 55 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 30 times
+    2: 35 times
+    3: 36 times
+    4: 27 times
+    5: 30 times
+    6: 42 times
+action taken in this episode: 229
+average episode rewards is 62.3601048891787
+
+ Scenario default Algo c_ppo Exp res updates 56/50 episodes, total num timesteps 13930/20000, Speed 7.
+
+Episode 56 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 36 times
+    2: 35 times
+    3: 30 times
+    4: 21 times
+    5: 35 times
+    6: 32 times
+action taken in this episode: 219
+average episode rewards is 56.93047315068915
+
+ Scenario default Algo c_ppo Exp res updates 57/50 episodes, total num timesteps 14174/20000, Speed 7.
+
+Episode 57 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 40 times
+    2: 37 times
+    3: 39 times
+    4: 28 times
+    5: 34 times
+    6: 35 times
+action taken in this episode: 244
+average episode rewards is 65.49661374084737
+
+ Scenario default Algo c_ppo Exp res updates 58/50 episodes, total num timesteps 14423/20000, Speed 7.
+
+Episode 58 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 33 times
+    2: 40 times
+    3: 38 times
+    4: 43 times
+    5: 36 times
+    6: 33 times
+action taken in this episode: 249
+average episode rewards is 68.58815819185101
+
+ Scenario default Algo c_ppo Exp res updates 59/50 episodes, total num timesteps 14653/20000, Speed 7.
+
+Episode 59 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 27 times
+    2: 33 times
+    3: 34 times
+    4: 36 times
+    5: 32 times
+    6: 35 times
+action taken in this episode: 230
+average episode rewards is 58.9468727802556
+
+ Scenario default Algo c_ppo Exp res updates 60/50 episodes, total num timesteps 14908/20000, Speed 7.
+
+Episode 60 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 43 times
+    2: 33 times
+    3: 36 times
+    4: 35 times
+    5: 45 times
+    6: 37 times
+action taken in this episode: 255
+average episode rewards is 65.72406298973378
+
+ Scenario default Algo c_ppo Exp res updates 61/50 episodes, total num timesteps 15160/20000, Speed 7.
+
+Episode 61 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 41 times
+    2: 38 times
+    3: 31 times
+    4: 26 times
+    5: 37 times
+    6: 41 times
+action taken in this episode: 252
+average episode rewards is 63.80617917210955
+
+ Scenario default Algo c_ppo Exp res updates 62/50 episodes, total num timesteps 15363/20000, Speed 7.
+
+Episode 62 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 37 times
+    2: 24 times
+    3: 37 times
+    4: 24 times
+    5: 30 times
+    6: 23 times
+action taken in this episode: 203
+average episode rewards is 57.68849187329807
+
+ Scenario default Algo c_ppo Exp res updates 63/50 episodes, total num timesteps 15581/20000, Speed 7.
+
+Episode 63 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 41 times
+    2: 28 times
+    3: 41 times
+    4: 19 times
+    5: 36 times
+    6: 24 times
+action taken in this episode: 218
+average episode rewards is 61.86724026088916
+
+ Scenario default Algo c_ppo Exp res updates 64/50 episodes, total num timesteps 15842/20000, Speed 7.
+
+Episode 64 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 39 times
+    2: 41 times
+    3: 38 times
+    4: 33 times
+    5: 35 times
+    6: 36 times
+action taken in this episode: 261
+average episode rewards is 80.84066301803452
+
+ Scenario default Algo c_ppo Exp res updates 65/50 episodes, total num timesteps 16097/20000, Speed 7.
+
+Episode 65 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 43 times
+    2: 34 times
+    3: 37 times
+    4: 31 times
+    5: 39 times
+    6: 30 times
+action taken in this episode: 255
+average episode rewards is 65.16757668925574
+
+ Scenario default Algo c_ppo Exp res updates 66/50 episodes, total num timesteps 16319/20000, Speed 7.
+
+Episode 66 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 31 times
+    2: 33 times
+    3: 33 times
+    4: 26 times
+    5: 33 times
+    6: 27 times
+action taken in this episode: 222
+average episode rewards is 56.583898266758624
+
+ Scenario default Algo c_ppo Exp res updates 67/50 episodes, total num timesteps 16586/20000, Speed 7.
+
+Episode 67 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 44 times
+    2: 39 times
+    3: 40 times
+    4: 34 times
+    5: 31 times
+    6: 38 times
+action taken in this episode: 267
+average episode rewards is 81.35594351857392
+
+ Scenario default Algo c_ppo Exp res updates 68/50 episodes, total num timesteps 16835/20000, Speed 7.
+
+Episode 68 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 37 times
+    2: 39 times
+    3: 45 times
+    4: 31 times
+    5: 35 times
+    6: 34 times
+action taken in this episode: 249
+average episode rewards is 69.3860988207943
+
+ Scenario default Algo c_ppo Exp res updates 69/50 episodes, total num timesteps 17044/20000, Speed 7.
+
+Episode 69 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 33 times
+    2: 44 times
+    3: 38 times
+    4: 23 times
+    5: 19 times
+    6: 24 times
+action taken in this episode: 209
+average episode rewards is 58.369557272498355
+
+ Scenario default Algo c_ppo Exp res updates 70/50 episodes, total num timesteps 17286/20000, Speed 7.
+
+Episode 70 - Action Counts per Satellite:
+  Satellite0:
+    0: 33 times
+    1: 27 times
+    2: 48 times
+    3: 35 times
+    4: 31 times
+    5: 32 times
+    6: 36 times
+action taken in this episode: 242
+average episode rewards is 57.65687812675591
+
+ Scenario default Algo c_ppo Exp res updates 71/50 episodes, total num timesteps 17545/20000, Speed 7.
+
+Episode 71 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 33 times
+    2: 41 times
+    3: 44 times
+    4: 29 times
+    5: 30 times
+    6: 40 times
+action taken in this episode: 259
+average episode rewards is 77.52032201474735
+
+ Scenario default Algo c_ppo Exp res updates 72/50 episodes, total num timesteps 17772/20000, Speed 7.
+
+Episode 72 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 26 times
+    2: 31 times
+    3: 41 times
+    4: 32 times
+    5: 29 times
+    6: 26 times
+action taken in this episode: 227
+average episode rewards is 69.85806249150394
+
+ Scenario default Algo c_ppo Exp res updates 73/50 episodes, total num timesteps 18013/20000, Speed 7.
+
+Episode 73 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 33 times
+    2: 51 times
+    3: 37 times
+    4: 34 times
+    5: 26 times
+    6: 25 times
+action taken in this episode: 241
+average episode rewards is 68.60399971832177
+
+ Scenario default Algo c_ppo Exp res updates 74/50 episodes, total num timesteps 18271/20000, Speed 7.
+
+Episode 74 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 40 times
+    2: 27 times
+    3: 35 times
+    4: 41 times
+    5: 34 times
+    6: 38 times
+action taken in this episode: 258
+average episode rewards is 63.790425436616744
+
+ Scenario default Algo c_ppo Exp res updates 75/50 episodes, total num timesteps 18541/20000, Speed 7.
+
+Episode 75 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 38 times
+    2: 47 times
+    3: 29 times
+    4: 44 times
+    5: 32 times
+    6: 38 times
+action taken in this episode: 270
+average episode rewards is 67.56967564604034
+
+ Scenario default Algo c_ppo Exp res updates 76/50 episodes, total num timesteps 18767/20000, Speed 7.
+
+Episode 76 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 33 times
+    2: 38 times
+    3: 30 times
+    4: 38 times
+    5: 25 times
+    6: 35 times
+action taken in this episode: 226
+average episode rewards is 62.631132959492625
+
+ Scenario default Algo c_ppo Exp res updates 77/50 episodes, total num timesteps 18982/20000, Speed 7.
+
+Episode 77 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 40 times
+    2: 28 times
+    3: 46 times
+    4: 29 times
+    5: 19 times
+    6: 30 times
+action taken in this episode: 215
+average episode rewards is 62.47375452030116
+
+ Scenario default Algo c_ppo Exp res updates 78/50 episodes, total num timesteps 19202/20000, Speed 7.
+
+Episode 78 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 28 times
+    2: 42 times
+    3: 39 times
+    4: 34 times
+    5: 18 times
+    6: 23 times
+action taken in this episode: 220
+average episode rewards is 66.62007665269029
+
+ Scenario default Algo c_ppo Exp res updates 79/50 episodes, total num timesteps 19483/20000, Speed 7.
+
+Episode 79 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 31 times
+    2: 37 times
+    3: 43 times
+    4: 41 times
+    5: 45 times
+    6: 42 times
+action taken in this episode: 281
+average episode rewards is 65.28098892743111
+
+ Scenario default Algo c_ppo Exp res updates 80/50 episodes, total num timesteps 19738/20000, Speed 7.
+
+Episode 80 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 37 times
+    2: 34 times
+    3: 44 times
+    4: 26 times
+    5: 38 times
+    6: 41 times
+action taken in this episode: 255
+average episode rewards is 69.77186138754146
+
+ Scenario default Algo c_ppo Exp res updates 81/50 episodes, total num timesteps 19961/20000, Speed 7.
+
+Episode 81 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 42 times
+    2: 25 times
+    3: 35 times
+    4: 28 times
+    5: 30 times
+    6: 31 times
+action taken in this episode: 223
+average episode rewards is 60.132923112106184
+
+ Scenario default Algo c_ppo Exp res updates 82/50 episodes, total num timesteps 20200/20000, Speed 7.
+
+Episode 82 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 48 times
+    2: 38 times
+    3: 30 times
+    4: 31 times
+    5: 30 times
+    6: 32 times
+action taken in this episode: 239
+average episode rewards is 70.86397034364263
+seed is 3:
+u are choosing to use c_ppo, we set use_recurrent_policy & use_naive_recurrent_policy to be False, share_policy is  True
+choose to use gpu...
+obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+share_obs_space:  [Box(-1e+16, 1e+16, (18,), float64)]
+act_space:  [Discrete(7)]
+
+ Scenario default Algo c_ppo Exp res updates 0/50 episodes, total num timesteps 275/20000, Speed 5.
+
+Episode 0 - Action Counts per Satellite:
+  Satellite0:
+    0: 45 times
+    1: 41 times
+    2: 33 times
+    3: 35 times
+    4: 38 times
+    5: 40 times
+    6: 43 times
+action taken in this episode: 275
+average episode rewards is 69.9795021124803
+
+ Scenario default Algo c_ppo Exp res updates 1/50 episodes, total num timesteps 505/20000, Speed 7.
+
+Episode 1 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 37 times
+    2: 31 times
+    3: 37 times
+    4: 35 times
+    5: 30 times
+    6: 30 times
+action taken in this episode: 230
+average episode rewards is 65.09041459121295
+
+ Scenario default Algo c_ppo Exp res updates 2/50 episodes, total num timesteps 783/20000, Speed 7.
+
+Episode 2 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 37 times
+    2: 42 times
+    3: 37 times
+    4: 41 times
+    5: 55 times
+    6: 34 times
+action taken in this episode: 278
+average episode rewards is 65.21809984260594
+
+ Scenario default Algo c_ppo Exp res updates 3/50 episodes, total num timesteps 1006/20000, Speed 7.
+
+Episode 3 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 28 times
+    2: 38 times
+    3: 39 times
+    4: 21 times
+    5: 34 times
+    6: 26 times
+action taken in this episode: 223
+average episode rewards is 68.10676726026463
+
+ Scenario default Algo c_ppo Exp res updates 4/50 episodes, total num timesteps 1259/20000, Speed 7.
+
+Episode 4 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 42 times
+    2: 31 times
+    3: 41 times
+    4: 26 times
+    5: 46 times
+    6: 30 times
+action taken in this episode: 253
+average episode rewards is 70.04328953383042
+
+ Scenario default Algo c_ppo Exp res updates 5/50 episodes, total num timesteps 1492/20000, Speed 7.
+
+Episode 5 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 38 times
+    2: 29 times
+    3: 34 times
+    4: 31 times
+    5: 29 times
+    6: 34 times
+action taken in this episode: 233
+average episode rewards is 62.085387714641534
+
+ Scenario default Algo c_ppo Exp res updates 6/50 episodes, total num timesteps 1762/20000, Speed 7.
+
+Episode 6 - Action Counts per Satellite:
+  Satellite0:
+    0: 47 times
+    1: 23 times
+    2: 38 times
+    3: 43 times
+    4: 44 times
+    5: 42 times
+    6: 33 times
+action taken in this episode: 270
+average episode rewards is 63.560113999649644
+
+ Scenario default Algo c_ppo Exp res updates 7/50 episodes, total num timesteps 2033/20000, Speed 7.
+
+Episode 7 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 43 times
+    2: 39 times
+    3: 34 times
+    4: 48 times
+    5: 38 times
+    6: 32 times
+action taken in this episode: 271
+average episode rewards is 67.0628213779906
+
+ Scenario default Algo c_ppo Exp res updates 8/50 episodes, total num timesteps 2318/20000, Speed 7.
+
+Episode 8 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 57 times
+    2: 53 times
+    3: 33 times
+    4: 30 times
+    5: 39 times
+    6: 38 times
+action taken in this episode: 285
+average episode rewards is 79.49114429230856
+
+ Scenario default Algo c_ppo Exp res updates 9/50 episodes, total num timesteps 2599/20000, Speed 7.
+
+Episode 9 - Action Counts per Satellite:
+  Satellite0:
+    0: 45 times
+    1: 40 times
+    2: 38 times
+    3: 41 times
+    4: 42 times
+    5: 34 times
+    6: 41 times
+action taken in this episode: 281
+average episode rewards is 81.95449193443109
+
+ Scenario default Algo c_ppo Exp res updates 10/50 episodes, total num timesteps 2850/20000, Speed 7.
+
+Episode 10 - Action Counts per Satellite:
+  Satellite0:
+    0: 46 times
+    1: 45 times
+    2: 40 times
+    3: 27 times
+    4: 35 times
+    5: 28 times
+    6: 30 times
+action taken in this episode: 251
+average episode rewards is 76.61799308017186
+
+ Scenario default Algo c_ppo Exp res updates 11/50 episodes, total num timesteps 3100/20000, Speed 7.
+
+Episode 11 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 42 times
+    2: 34 times
+    3: 41 times
+    4: 35 times
+    5: 25 times
+    6: 37 times
+action taken in this episode: 250
+average episode rewards is 71.21022096043355
+
+ Scenario default Algo c_ppo Exp res updates 12/50 episodes, total num timesteps 3333/20000, Speed 7.
+
+Episode 12 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 36 times
+    2: 45 times
+    3: 36 times
+    4: 29 times
+    5: 33 times
+    6: 29 times
+action taken in this episode: 233
+average episode rewards is 69.61026171989973
+
+ Scenario default Algo c_ppo Exp res updates 13/50 episodes, total num timesteps 3597/20000, Speed 7.
+
+Episode 13 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 43 times
+    2: 39 times
+    3: 35 times
+    4: 42 times
+    5: 36 times
+    6: 34 times
+action taken in this episode: 264
+average episode rewards is 71.82837186506819
+
+ Scenario default Algo c_ppo Exp res updates 14/50 episodes, total num timesteps 3884/20000, Speed 7.
+
+Episode 14 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 33 times
+    2: 36 times
+    3: 41 times
+    4: 45 times
+    5: 45 times
+    6: 47 times
+action taken in this episode: 287
+average episode rewards is 65.23916762169718
+
+ Scenario default Algo c_ppo Exp res updates 15/50 episodes, total num timesteps 4147/20000, Speed 7.
+
+Episode 15 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 34 times
+    2: 45 times
+    3: 37 times
+    4: 33 times
+    5: 44 times
+    6: 33 times
+action taken in this episode: 263
+average episode rewards is 69.8613030698962
+
+ Scenario default Algo c_ppo Exp res updates 16/50 episodes, total num timesteps 4398/20000, Speed 7.
+
+Episode 16 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 32 times
+    2: 37 times
+    3: 38 times
+    4: 25 times
+    5: 37 times
+    6: 38 times
+action taken in this episode: 251
+average episode rewards is 74.56985182766121
+
+ Scenario default Algo c_ppo Exp res updates 17/50 episodes, total num timesteps 4663/20000, Speed 7.
+
+Episode 17 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 32 times
+    2: 41 times
+    3: 41 times
+    4: 28 times
+    5: 45 times
+    6: 43 times
+action taken in this episode: 265
+average episode rewards is 73.0079268492866
+
+ Scenario default Algo c_ppo Exp res updates 18/50 episodes, total num timesteps 4909/20000, Speed 7.
+
+Episode 18 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 32 times
+    2: 28 times
+    3: 39 times
+    4: 31 times
+    5: 37 times
+    6: 39 times
+action taken in this episode: 246
+average episode rewards is 60.96519257731799
+
+ Scenario default Algo c_ppo Exp res updates 19/50 episodes, total num timesteps 5169/20000, Speed 7.
+
+Episode 19 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 40 times
+    2: 39 times
+    3: 35 times
+    4: 39 times
+    5: 35 times
+    6: 35 times
+action taken in this episode: 260
+average episode rewards is 62.439918704028436
+
+ Scenario default Algo c_ppo Exp res updates 20/50 episodes, total num timesteps 5355/20000, Speed 7.
+
+Episode 20 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 25 times
+    2: 26 times
+    3: 31 times
+    4: 23 times
+    5: 26 times
+    6: 29 times
+action taken in this episode: 186
+average episode rewards is 50.958804366353995
+
+ Scenario default Algo c_ppo Exp res updates 21/50 episodes, total num timesteps 5578/20000, Speed 7.
+
+Episode 21 - Action Counts per Satellite:
+  Satellite0:
+    0: 25 times
+    1: 30 times
+    2: 32 times
+    3: 50 times
+    4: 28 times
+    5: 34 times
+    6: 24 times
+action taken in this episode: 223
+average episode rewards is 60.924129138556445
+
+ Scenario default Algo c_ppo Exp res updates 22/50 episodes, total num timesteps 5835/20000, Speed 7.
+
+Episode 22 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 40 times
+    2: 32 times
+    3: 36 times
+    4: 41 times
+    5: 37 times
+    6: 29 times
+action taken in this episode: 257
+average episode rewards is 69.95206241367194
+
+ Scenario default Algo c_ppo Exp res updates 23/50 episodes, total num timesteps 6115/20000, Speed 7.
+
+Episode 23 - Action Counts per Satellite:
+  Satellite0:
+    0: 49 times
+    1: 31 times
+    2: 33 times
+    3: 37 times
+    4: 45 times
+    5: 49 times
+    6: 36 times
+action taken in this episode: 280
+average episode rewards is 73.35232487432347
+
+ Scenario default Algo c_ppo Exp res updates 24/50 episodes, total num timesteps 6376/20000, Speed 7.
+
+Episode 24 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 44 times
+    2: 38 times
+    3: 33 times
+    4: 41 times
+    5: 23 times
+    6: 42 times
+action taken in this episode: 261
+average episode rewards is 73.28768441769277
+
+ Scenario default Algo c_ppo Exp res updates 25/50 episodes, total num timesteps 6606/20000, Speed 7.
+
+Episode 25 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 37 times
+    2: 38 times
+    3: 32 times
+    4: 28 times
+    5: 28 times
+    6: 30 times
+action taken in this episode: 230
+average episode rewards is 70.11780484972822
+
+ Scenario default Algo c_ppo Exp res updates 26/50 episodes, total num timesteps 6878/20000, Speed 7.
+
+Episode 26 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 37 times
+    2: 43 times
+    3: 38 times
+    4: 40 times
+    5: 21 times
+    6: 51 times
+action taken in this episode: 272
+average episode rewards is 75.73990400495127
+
+ Scenario default Algo c_ppo Exp res updates 27/50 episodes, total num timesteps 7106/20000, Speed 7.
+
+Episode 27 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 32 times
+    2: 41 times
+    3: 42 times
+    4: 22 times
+    5: 22 times
+    6: 31 times
+action taken in this episode: 228
+average episode rewards is 75.77103944811745
+
+ Scenario default Algo c_ppo Exp res updates 28/50 episodes, total num timesteps 7324/20000, Speed 7.
+
+Episode 28 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 25 times
+    2: 37 times
+    3: 33 times
+    4: 39 times
+    5: 35 times
+    6: 26 times
+action taken in this episode: 218
+average episode rewards is 52.6890211785203
+
+ Scenario default Algo c_ppo Exp res updates 29/50 episodes, total num timesteps 7575/20000, Speed 7.
+
+Episode 29 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 28 times
+    2: 37 times
+    3: 39 times
+    4: 41 times
+    5: 33 times
+    6: 30 times
+action taken in this episode: 251
+average episode rewards is 65.49678513716418
+
+ Scenario default Algo c_ppo Exp res updates 30/50 episodes, total num timesteps 7821/20000, Speed 7.
+
+Episode 30 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 22 times
+    2: 42 times
+    3: 44 times
+    4: 41 times
+    5: 23 times
+    6: 32 times
+action taken in this episode: 246
+average episode rewards is 69.22973882315847
+
+ Scenario default Algo c_ppo Exp res updates 31/50 episodes, total num timesteps 8078/20000, Speed 7.
+
+Episode 31 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 38 times
+    2: 37 times
+    3: 44 times
+    4: 35 times
+    5: 35 times
+    6: 34 times
+action taken in this episode: 257
+average episode rewards is 73.88451056916803
+
+ Scenario default Algo c_ppo Exp res updates 32/50 episodes, total num timesteps 8347/20000, Speed 7.
+
+Episode 32 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 50 times
+    2: 30 times
+    3: 41 times
+    4: 39 times
+    5: 43 times
+    6: 29 times
+action taken in this episode: 269
+average episode rewards is 63.45580144677704
+
+ Scenario default Algo c_ppo Exp res updates 33/50 episodes, total num timesteps 8612/20000, Speed 7.
+
+Episode 33 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 41 times
+    2: 33 times
+    3: 44 times
+    4: 45 times
+    5: 36 times
+    6: 36 times
+action taken in this episode: 265
+average episode rewards is 71.41729202488847
+
+ Scenario default Algo c_ppo Exp res updates 34/50 episodes, total num timesteps 8830/20000, Speed 7.
+
+Episode 34 - Action Counts per Satellite:
+  Satellite0:
+    0: 20 times
+    1: 42 times
+    2: 43 times
+    3: 31 times
+    4: 22 times
+    5: 37 times
+    6: 23 times
+action taken in this episode: 218
+average episode rewards is 60.77226004057164
+
+ Scenario default Algo c_ppo Exp res updates 35/50 episodes, total num timesteps 9111/20000, Speed 7.
+
+Episode 35 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 40 times
+    2: 46 times
+    3: 38 times
+    4: 36 times
+    5: 39 times
+    6: 41 times
+action taken in this episode: 281
+average episode rewards is 78.70315838699904
+
+ Scenario default Algo c_ppo Exp res updates 36/50 episodes, total num timesteps 9376/20000, Speed 7.
+
+Episode 36 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 40 times
+    2: 30 times
+    3: 38 times
+    4: 49 times
+    5: 36 times
+    6: 40 times
+action taken in this episode: 265
+average episode rewards is 68.73048870477504
+
+ Scenario default Algo c_ppo Exp res updates 37/50 episodes, total num timesteps 9595/20000, Speed 7.
+
+Episode 37 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 43 times
+    2: 30 times
+    3: 35 times
+    4: 22 times
+    5: 26 times
+    6: 29 times
+action taken in this episode: 219
+average episode rewards is 61.06836064193433
+
+ Scenario default Algo c_ppo Exp res updates 38/50 episodes, total num timesteps 9883/20000, Speed 7.
+
+Episode 38 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 42 times
+    2: 32 times
+    3: 34 times
+    4: 46 times
+    5: 41 times
+    6: 45 times
+action taken in this episode: 288
+average episode rewards is 72.03967337109385
+
+ Scenario default Algo c_ppo Exp res updates 39/50 episodes, total num timesteps 10131/20000, Speed 7.
+
+Episode 39 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 38 times
+    2: 39 times
+    3: 33 times
+    4: 37 times
+    5: 35 times
+    6: 37 times
+action taken in this episode: 248
+average episode rewards is 63.28914056986473
+
+ Scenario default Algo c_ppo Exp res updates 40/50 episodes, total num timesteps 10401/20000, Speed 7.
+
+Episode 40 - Action Counts per Satellite:
+  Satellite0:
+    0: 45 times
+    1: 46 times
+    2: 39 times
+    3: 36 times
+    4: 31 times
+    5: 45 times
+    6: 28 times
+action taken in this episode: 270
+average episode rewards is 75.09986454673435
+
+ Scenario default Algo c_ppo Exp res updates 41/50 episodes, total num timesteps 10651/20000, Speed 7.
+
+Episode 41 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 38 times
+    2: 30 times
+    3: 42 times
+    4: 36 times
+    5: 33 times
+    6: 31 times
+action taken in this episode: 250
+average episode rewards is 67.75169482137342
+
+ Scenario default Algo c_ppo Exp res updates 42/50 episodes, total num timesteps 10899/20000, Speed 7.
+
+Episode 42 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 52 times
+    2: 36 times
+    3: 32 times
+    4: 36 times
+    5: 35 times
+    6: 26 times
+action taken in this episode: 248
+average episode rewards is 73.32038300310191
+
+ Scenario default Algo c_ppo Exp res updates 43/50 episodes, total num timesteps 11106/20000, Speed 7.
+
+Episode 43 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 35 times
+    2: 33 times
+    3: 34 times
+    4: 13 times
+    5: 27 times
+    6: 29 times
+action taken in this episode: 207
+average episode rewards is 62.42608503449487
+
+ Scenario default Algo c_ppo Exp res updates 44/50 episodes, total num timesteps 11339/20000, Speed 7.
+
+Episode 44 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 34 times
+    2: 45 times
+    3: 31 times
+    4: 28 times
+    5: 29 times
+    6: 36 times
+action taken in this episode: 233
+average episode rewards is 71.74399893156621
+
+ Scenario default Algo c_ppo Exp res updates 45/50 episodes, total num timesteps 11578/20000, Speed 7.
+
+Episode 45 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 32 times
+    2: 48 times
+    3: 39 times
+    4: 26 times
+    5: 27 times
+    6: 31 times
+action taken in this episode: 239
+average episode rewards is 71.71104914036565
+
+ Scenario default Algo c_ppo Exp res updates 46/50 episodes, total num timesteps 11773/20000, Speed 7.
+
+Episode 46 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 24 times
+    2: 35 times
+    3: 33 times
+    4: 25 times
+    5: 28 times
+    6: 19 times
+action taken in this episode: 195
+average episode rewards is 60.4792403444137
+
+ Scenario default Algo c_ppo Exp res updates 47/50 episodes, total num timesteps 12019/20000, Speed 7.
+
+Episode 47 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 36 times
+    2: 36 times
+    3: 41 times
+    4: 44 times
+    5: 38 times
+    6: 25 times
+action taken in this episode: 246
+average episode rewards is 58.86539312478886
+
+ Scenario default Algo c_ppo Exp res updates 48/50 episodes, total num timesteps 12228/20000, Speed 7.
+
+Episode 48 - Action Counts per Satellite:
+  Satellite0:
+    0: 26 times
+    1: 28 times
+    2: 30 times
+    3: 44 times
+    4: 35 times
+    5: 21 times
+    6: 25 times
+action taken in this episode: 209
+average episode rewards is 60.85460845206839
+
+ Scenario default Algo c_ppo Exp res updates 49/50 episodes, total num timesteps 12490/20000, Speed 7.
+
+Episode 49 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 37 times
+    2: 42 times
+    3: 43 times
+    4: 30 times
+    5: 32 times
+    6: 39 times
+action taken in this episode: 262
+average episode rewards is 78.13016832447909
+
+ Scenario default Algo c_ppo Exp res updates 50/50 episodes, total num timesteps 12762/20000, Speed 7.
+
+Episode 50 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 36 times
+    2: 49 times
+    3: 35 times
+    4: 37 times
+    5: 33 times
+    6: 39 times
+action taken in this episode: 272
+average episode rewards is 73.89687791101068
+
+ Scenario default Algo c_ppo Exp res updates 51/50 episodes, total num timesteps 13014/20000, Speed 7.
+
+Episode 51 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 26 times
+    2: 41 times
+    3: 39 times
+    4: 41 times
+    5: 38 times
+    6: 32 times
+action taken in this episode: 252
+average episode rewards is 61.75720433582577
+
+ Scenario default Algo c_ppo Exp res updates 52/50 episodes, total num timesteps 13249/20000, Speed 7.
+
+Episode 52 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 35 times
+    2: 42 times
+    3: 32 times
+    4: 36 times
+    5: 31 times
+    6: 22 times
+action taken in this episode: 235
+average episode rewards is 63.288057732504285
+
+ Scenario default Algo c_ppo Exp res updates 53/50 episodes, total num timesteps 13543/20000, Speed 7.
+
+Episode 53 - Action Counts per Satellite:
+  Satellite0:
+    0: 43 times
+    1: 42 times
+    2: 38 times
+    3: 32 times
+    4: 48 times
+    5: 46 times
+    6: 45 times
+action taken in this episode: 294
+average episode rewards is 66.18993964911314
+
+ Scenario default Algo c_ppo Exp res updates 54/50 episodes, total num timesteps 13770/20000, Speed 7.
+
+Episode 54 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 39 times
+    2: 42 times
+    3: 33 times
+    4: 28 times
+    5: 30 times
+    6: 24 times
+action taken in this episode: 227
+average episode rewards is 64.97325730600609
+
+ Scenario default Algo c_ppo Exp res updates 55/50 episodes, total num timesteps 14039/20000, Speed 7.
+
+Episode 55 - Action Counts per Satellite:
+  Satellite0:
+    0: 47 times
+    1: 40 times
+    2: 41 times
+    3: 34 times
+    4: 34 times
+    5: 28 times
+    6: 45 times
+action taken in this episode: 269
+average episode rewards is 76.47473990100315
+
+ Scenario default Algo c_ppo Exp res updates 56/50 episodes, total num timesteps 14260/20000, Speed 7.
+
+Episode 56 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 29 times
+    2: 32 times
+    3: 36 times
+    4: 34 times
+    5: 30 times
+    6: 26 times
+action taken in this episode: 221
+average episode rewards is 57.153918583964895
+
+ Scenario default Algo c_ppo Exp res updates 57/50 episodes, total num timesteps 14537/20000, Speed 7.
+
+Episode 57 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 31 times
+    2: 50 times
+    3: 36 times
+    4: 39 times
+    5: 36 times
+    6: 37 times
+action taken in this episode: 277
+average episode rewards is 80.04024757873479
+
+ Scenario default Algo c_ppo Exp res updates 58/50 episodes, total num timesteps 14785/20000, Speed 7.
+
+Episode 58 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 26 times
+    2: 40 times
+    3: 34 times
+    4: 29 times
+    5: 45 times
+    6: 32 times
+action taken in this episode: 248
+average episode rewards is 62.06923456013325
+
+ Scenario default Algo c_ppo Exp res updates 59/50 episodes, total num timesteps 15078/20000, Speed 7.
+
+Episode 59 - Action Counts per Satellite:
+  Satellite0:
+    0: 53 times
+    1: 34 times
+    2: 47 times
+    3: 35 times
+    4: 44 times
+    5: 41 times
+    6: 39 times
+action taken in this episode: 293
+average episode rewards is 73.5743756263023
+
+ Scenario default Algo c_ppo Exp res updates 60/50 episodes, total num timesteps 15310/20000, Speed 7.
+
+Episode 60 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 28 times
+    2: 40 times
+    3: 35 times
+    4: 29 times
+    5: 28 times
+    6: 34 times
+action taken in this episode: 232
+average episode rewards is 63.282053711853735
+
+ Scenario default Algo c_ppo Exp res updates 61/50 episodes, total num timesteps 15542/20000, Speed 7.
+
+Episode 61 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 40 times
+    2: 30 times
+    3: 43 times
+    4: 29 times
+    5: 34 times
+    6: 22 times
+action taken in this episode: 232
+average episode rewards is 66.0894568547135
+
+ Scenario default Algo c_ppo Exp res updates 62/50 episodes, total num timesteps 15769/20000, Speed 7.
+
+Episode 62 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 41 times
+    2: 39 times
+    3: 29 times
+    4: 33 times
+    5: 29 times
+    6: 21 times
+action taken in this episode: 227
+average episode rewards is 66.0584766651915
+
+ Scenario default Algo c_ppo Exp res updates 63/50 episodes, total num timesteps 16005/20000, Speed 7.
+
+Episode 63 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 42 times
+    2: 30 times
+    3: 26 times
+    4: 40 times
+    5: 41 times
+    6: 26 times
+action taken in this episode: 236
+average episode rewards is 60.12072490600264
+
+ Scenario default Algo c_ppo Exp res updates 64/50 episodes, total num timesteps 16246/20000, Speed 7.
+
+Episode 64 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 30 times
+    2: 35 times
+    3: 32 times
+    4: 30 times
+    5: 31 times
+    6: 39 times
+action taken in this episode: 241
+average episode rewards is 63.43651921487511
+
+ Scenario default Algo c_ppo Exp res updates 65/50 episodes, total num timesteps 16501/20000, Speed 7.
+
+Episode 65 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 39 times
+    2: 27 times
+    3: 36 times
+    4: 45 times
+    5: 36 times
+    6: 32 times
+action taken in this episode: 255
+average episode rewards is 73.54138695944715
+
+ Scenario default Algo c_ppo Exp res updates 66/50 episodes, total num timesteps 16761/20000, Speed 7.
+
+Episode 66 - Action Counts per Satellite:
+  Satellite0:
+    0: 60 times
+    1: 40 times
+    2: 27 times
+    3: 36 times
+    4: 36 times
+    5: 28 times
+    6: 33 times
+action taken in this episode: 260
+average episode rewards is 74.9205714668118
+
+ Scenario default Algo c_ppo Exp res updates 67/50 episodes, total num timesteps 16992/20000, Speed 7.
+
+Episode 67 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 27 times
+    2: 30 times
+    3: 36 times
+    4: 34 times
+    5: 38 times
+    6: 29 times
+action taken in this episode: 231
+average episode rewards is 58.283896842905456
+
+ Scenario default Algo c_ppo Exp res updates 68/50 episodes, total num timesteps 17264/20000, Speed 7.
+
+Episode 68 - Action Counts per Satellite:
+  Satellite0:
+    0: 53 times
+    1: 26 times
+    2: 35 times
+    3: 40 times
+    4: 40 times
+    5: 43 times
+    6: 35 times
+action taken in this episode: 272
+average episode rewards is 72.0494937419352
+
+ Scenario default Algo c_ppo Exp res updates 69/50 episodes, total num timesteps 17501/20000, Speed 7.
+
+Episode 69 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 41 times
+    2: 33 times
+    3: 38 times
+    4: 39 times
+    5: 26 times
+    6: 21 times
+action taken in this episode: 237
+average episode rewards is 68.70285315651786
+
+ Scenario default Algo c_ppo Exp res updates 70/50 episodes, total num timesteps 17744/20000, Speed 7.
+
+Episode 70 - Action Counts per Satellite:
+  Satellite0:
+    0: 44 times
+    1: 34 times
+    2: 31 times
+    3: 46 times
+    4: 32 times
+    5: 30 times
+    6: 26 times
+action taken in this episode: 243
+average episode rewards is 69.5806066603786
+
+ Scenario default Algo c_ppo Exp res updates 71/50 episodes, total num timesteps 17996/20000, Speed 7.
+
+Episode 71 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 32 times
+    2: 41 times
+    3: 37 times
+    4: 32 times
+    5: 31 times
+    6: 37 times
+action taken in this episode: 252
+average episode rewards is 69.91381662524708
+
+ Scenario default Algo c_ppo Exp res updates 72/50 episodes, total num timesteps 18216/20000, Speed 7.
+
+Episode 72 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 25 times
+    2: 42 times
+    3: 33 times
+    4: 29 times
+    5: 28 times
+    6: 29 times
+action taken in this episode: 220
+average episode rewards is 55.81079105194485
+
+ Scenario default Algo c_ppo Exp res updates 73/50 episodes, total num timesteps 18498/20000, Speed 7.
+
+Episode 73 - Action Counts per Satellite:
+  Satellite0:
+    0: 46 times
+    1: 36 times
+    2: 48 times
+    3: 40 times
+    4: 27 times
+    5: 42 times
+    6: 43 times
+action taken in this episode: 282
+average episode rewards is 82.86273174712308
+
+ Scenario default Algo c_ppo Exp res updates 74/50 episodes, total num timesteps 18709/20000, Speed 7.
+
+Episode 74 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 30 times
+    2: 34 times
+    3: 33 times
+    4: 27 times
+    5: 28 times
+    6: 28 times
+action taken in this episode: 211
+average episode rewards is 54.25616528071939
+
+ Scenario default Algo c_ppo Exp res updates 75/50 episodes, total num timesteps 18974/20000, Speed 7.
+
+Episode 75 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 35 times
+    2: 39 times
+    3: 43 times
+    4: 29 times
+    5: 41 times
+    6: 39 times
+action taken in this episode: 265
+average episode rewards is 70.49083116948597
+
+ Scenario default Algo c_ppo Exp res updates 76/50 episodes, total num timesteps 19203/20000, Speed 7.
+
+Episode 76 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 37 times
+    2: 25 times
+    3: 39 times
+    4: 26 times
+    5: 41 times
+    6: 23 times
+action taken in this episode: 229
+average episode rewards is 67.73418953480937
+
+ Scenario default Algo c_ppo Exp res updates 77/50 episodes, total num timesteps 19423/20000, Speed 7.
+
+Episode 77 - Action Counts per Satellite:
+  Satellite0:
+    0: 18 times
+    1: 37 times
+    2: 30 times
+    3: 45 times
+    4: 27 times
+    5: 34 times
+    6: 29 times
+action taken in this episode: 220
+average episode rewards is 60.58105159342127
+
+ Scenario default Algo c_ppo Exp res updates 78/50 episodes, total num timesteps 19677/20000, Speed 7.
+
+Episode 78 - Action Counts per Satellite:
+  Satellite0:
+    0: 47 times
+    1: 30 times
+    2: 37 times
+    3: 41 times
+    4: 32 times
+    5: 35 times
+    6: 32 times
+action taken in this episode: 254
+average episode rewards is 74.94504725338822
+
+ Scenario default Algo c_ppo Exp res updates 79/50 episodes, total num timesteps 19935/20000, Speed 7.
+
+Episode 79 - Action Counts per Satellite:
+  Satellite0:
+    0: 40 times
+    1: 37 times
+    2: 39 times
+    3: 39 times
+    4: 33 times
+    5: 39 times
+    6: 31 times
+action taken in this episode: 258
+average episode rewards is 70.40848300739339
+
+ Scenario default Algo c_ppo Exp res updates 80/50 episodes, total num timesteps 20160/20000, Speed 7.
+
+Episode 80 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 34 times
+    2: 30 times
+    3: 33 times
+    4: 28 times
+    5: 27 times
+    6: 31 times
+action taken in this episode: 225
+average episode rewards is 57.49379281038653
