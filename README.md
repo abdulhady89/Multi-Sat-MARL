@@ -1,7 +1,7 @@
 # Multi-Sat-MARL
-Multi-Satellite MARL codes for ACM KDD'25 Applied Data Science Track submission
+A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as the solution of decision making process to maximize unique image capturing task.
 
-## This repository is a part of the SIGKDD'25 Conference Applied Data Science (ADS) Track submission
+## This repository is a part of the ACM KDD'25 Conference Applied Data Science (ADS) Track submission
 
 Paper Title: Multi-Satellite Earth Observation Mission Autonomy: A Realistic Case Study for Multi-Agent Reinforcement Learning
 
@@ -16,18 +16,17 @@ This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent
 - [Basilisk (BSK-RL)](https://github.com/AVSLab/bsk_rl)
 
 ## 1. Usage
-**WARNING: by default all experiments assume a shared policy by all agents i.e. there is one neural network shared by all agents**
 
 All core code is located within the onpolicy folder. The algorithms/ subfolder contains algorithm-specific code
-for MAPPO. 
+for Centralized PPO, Decentralized PPO or Independet PPO (IPPO), MAPPO, and HAPPO . 
 
-* The envs/ subfolder contains environment wrapper implementations for the MPEs, SMAC, and Hanabi. 
+* The envs/ subfolder contains environment wrapper implementations for the BSK-RL environment. 
 
 * Code to perform training rollouts and policy updates are contained within the runner/ folder - there is a runner for 
 each environment. 
 
 * Executable scripts for training with default hyperparameters can be found in the scripts/ folder. The files are named
-in the following manner: train_algo_environment.sh. Within each file, the map name (in the case of SMAC and the MPEs) can be altered. 
+in the following manner: train_algo_environment.sh.
 * Python training scripts for each environment can be found in the scripts/train/ folder. 
 
 * The config.py file contains relevant hyperparameter and env settings. Most hyperparameters are defaulted to the ones
