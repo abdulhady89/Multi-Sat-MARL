@@ -3,9 +3,9 @@ A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as a s
 
 ## This repository is a part of the ACM KDD'25 Conference Applied Data Science (ADS) Track submission
 
-Paper Title: Multi-Satellite Earth Observation Mission Autonomy: A Realistic Case Study for Multi-Agent Reinforcement Learning
+**Paper Title**: Multi-Satellite Earth Observation Mission Autonomy: A Realistic Case Study for Multi-Agent Reinforcement Learning
 
-Authors: Mohamad Hady, Siyi Hu, Mahardhika Pratama, Jimmy Cao, and Ryszard Kowalczyk
+**Authors**: Mohamad Hady, Siyi Hu, Mahardhika Pratama, Jimmy Cao, and Ryszard Kowalczyk
 
 
 This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent variant of PPO to work with Basilisk (BSK-RL), a realistic satellite simulator with Vizard 3D visualization. This implementation is heavily based on https://github.com/marlbenchmark/on-policy as the official implementation of Multi-Agent PPO (MAPPO)(paper: https://arxiv.org/abs/2103.01955). 
@@ -17,19 +17,19 @@ This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent
 
 ## 1. Usage
 
-All core code is located within the onpolicy folder. The algorithms/ subfolder contains algorithm-specific code
+All core code is located within the onpolicy folder. The `algorithms/` subfolder contains algorithm-specific code
 for Centralized PPO, Decentralized PPO or Independet PPO (IPPO), MAPPO, and HAPPO . 
 
 * The envs/ subfolder contains environment wrapper implementations for the BSK-RL environment. 
 
-* Code to perform training rollouts and policy updates are contained within the runner/ folder - there is a runner for 
+* Code to perform training rollouts and policy updates are contained within the `runner/` folder - there is a runner for 
 each environment. 
 
 * Executable scripts for training with default hyperparameters can be found in the scripts/train_bsk folder. The files are named
-in the following manner: train_bsk_scenario-name_algorithm-name.sh.
-* Python training scripts for each environment can be found in the scripts/train/ folder. 
+in the following manner: `train_bsk_scenario-name_algorithm-name.sh`.
+* Python training scripts for each environment can be found in the `scripts/train/` folder. 
 
-* The config.py file contains relevant hyperparameter and env settings. Most hyperparameters are defaulted to the ones
+* The `config.py` file contains relevant hyperparameter and env settings. Most hyperparameters are defaulted to the ones
 used in the paper; however, please refer to the appendix of [Official MAPPO paper](https://arxiv.org/abs/2103.01955) for a full list of hyperparameters used. 
 
 
