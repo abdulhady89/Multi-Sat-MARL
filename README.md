@@ -7,6 +7,7 @@ A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as a s
 
 **Authors**: Mohamad Hady, Siyi Hu, Mahardhika Pratama, Jimmy Cao, and Ryszard Kowalczyk
 
+**Video Link**: https://youtu.be/VWm5WG7XZ1Y
 
 This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent variant of PPO to work with Basilisk (BSK-RL), a realistic satellite simulator with Vizard 3D visualization. This implementation is developed heavily based on https://github.com/marlbenchmark/on-policy as the official implementation of Multi-Agent PPO (MAPPO)(paper: https://arxiv.org/abs/2103.01955). 
 
