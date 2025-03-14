@@ -11,8 +11,8 @@ def get_version() -> str:
 setup(
     name="onpolicy",
     version="0.1.0",
-    author="hady",
-    author_email="hady.elits@gmail.com",
+    author="anonymous",
+    author_email="anonymmous@yyyy.com",
     description="A Multi-Satellite Earth Observation Mission Autonomy with on-policy MARL Algorithms",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
