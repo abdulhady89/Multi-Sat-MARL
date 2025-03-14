@@ -358,3 +358,99 @@ class BSKRunner(Runner):
                   agent_id + str(eval_average_episode_rewards))
 
         self.log_train(eval_train_infos, total_num_steps)
+
+    @torch.no_grad()
+    def render(self):
+        """Visualize the env."""
+        envs = self.envs
+
+        # Satellite names
+        satellite_names = []
+        for i in range(self.all_args.n_satellites):
+            satellite_names.append(f"Satellite{i}")
+        # Action names
+        action_names = {}
+        for i in range(self.all_args.n_act_image):
+            action_names[i] = f"Image_Target_{i}"
+
+        action_names[i + 1] = "Charge"
+        action_names[i + 2] = "Downlink"
+        action_names[i + 3] = "Desaturate"
+
+        n_step = 0
+
+        for episode in range(self.all_args.render_episodes):
+            obs = envs.reset()
+
+            rnn_states = np.zeros((self.n_rollout_threads, self.num_agents,
+                                  self.recurrent_N, self.hidden_size), dtype=np.float32)
+            masks = np.ones(
+                (self.n_rollout_threads, self.num_agents, 1), dtype=np.float32)
+
+            episode_rewards = []
+
+            # Track total actions for percentage calculation
+            total_actions = 0
+            battery_usage = {sat: [] for sat in satellite_names}
+            memory_usage = {sat: [] for sat in satellite_names}
+
+            # Initialize the nested dictionary
+            action_frequencies = {
+                sat: {action: 0 for action in action_names} for sat in satellite_names}
+            epsiode_length = 0
+            dones = np.array([False] * self.all_args.n_satellites)
+            score = 0
+            step = 0
+            while not dones.any():
+                calc_start = time.time()
+
+                actions = []
+                for agent_id in range(self.num_agents):
+                    if not self.use_centralized_V:
+                        share_obs = np.array(list(obs[:, agent_id]))
+                    self.trainer[agent_id].prep_rollout()
+                    action, rnn_state = self.trainer[agent_id].policy.act(np.array(list(obs[:, agent_id])),
+                                                                          rnn_states[:,
+                                                                                     agent_id], masks[:, agent_id],
+                                                                          deterministic=True)
+                    action = _t2n(action)
+                    actions.append(action)
+                    rnn_states[:, agent_id] = _t2n(rnn_state)
+                actions = np.array(actions).transpose(1, 0, 2)
+                # Obser reward and next obs
+                obs, rewards, dones, infos = self.envs.step(actions)
+                episode_rewards.append(rewards)
+
+                rnn_states[dones == True] = np.zeros(
+                    ((dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
+                masks = np.ones(
+                    (self.n_rollout_threads, self.num_agents, 1), dtype=np.float32)
+                masks[dones == True] = np.zeros(
+                    ((dones == True).sum(), 1), dtype=np.float32)
+
+                score += rewards
+
+                # Track action counts for each satellite
+                for k in range(self.n_rollout_threads):
+                    for index, sat in enumerate(satellite_names):
+                        action_frequencies[sat][actions[k][index][0]] += 1
+                    total_actions += 1
+
+                # Record battery and memory usage for each satellite
+                for k in range(self.n_rollout_threads):
+                    for i, sat in enumerate(satellite_names):
+                        # Track battery for satellite `sat`
+                        battery_usage[sat].append(obs[k][i][1].item())
+                        # Track memory for satellite `sat`
+                        memory_usage[sat].append(obs[k][i][0].item())
+                step += 1
+                epsiode_length += self.n_rollout_threads
+                n_step += self.n_rollout_threads
+
+                if step >= self.episode_length:
+                    break
+
+            print(f'action taken in this episode: {epsiode_length}')
+            print("average episode rewards is {}".format(np.mean(score)))
+            print(
+                f'epsiode length or terminated at : {1-obs[0][0][-1].item()*100} of full duration')
