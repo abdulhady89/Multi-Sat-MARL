@@ -12,7 +12,7 @@ This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent
 
 ## Realistic Satellite Simulator Environment supported:
 
-- Please install environment: [BSK-RL](https://anonymous.4open.science/r/bskrl-8FAF). It is modified from the original version: [Basilisk (BSK-RL)](https://github.com/AVSLab/bsk_rl) and the original version does not work with our algorithm.
+- Basilisik [BSK-RL](https://anonymous.4open.science/r/bskrl-8FAF). It is modified from the original version: [Basilisk (BSK-RL)](https://github.com/AVSLab/bsk_rl) and the original version does not work with our algorithm.
 
 ## 1. Usage
 
