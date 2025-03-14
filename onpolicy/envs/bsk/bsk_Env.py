@@ -97,13 +97,5 @@ class BskEnv(object):
             return obs
 
     def _info_wrapper(self, info):
-        # state = self.env.unwrapped.observation()
-        # info.update(state[0])
-        # # info["max_steps"] = self.max_steps
-        # info["active"] = np.array([state[i]["active"]
-        #                           for i in range(self.num_agents)])
-        # info["designated"] = np.array(
-        #     [state[i]["designated"] for i in range(self.num_agents)])
-        # info["sticky_actions"] = np.stack(
-        #     [state[i]["sticky_actions"] for i in range(self.num_agents)])
+
         return info

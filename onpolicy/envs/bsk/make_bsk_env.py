@@ -261,6 +261,9 @@ def make_BSK_Cluster_env(args, satellite_names):
         log_level="WARNING",
         terminate_on_time_limit=True,
         failure_penalty=args.failure_penalty,
+        vizard_dir="./tmp_cluster/vizard" if args.use_render else None,
+        vizard_settings=dict(showLocationLabels=-
+                             1) if args.use_render else None,
     )
     return env
 
@@ -401,5 +404,8 @@ def make_BSK_Walker_env(args, satellite_names):
         log_level="WARNING",
         terminate_on_time_limit=True,
         failure_penalty=args.failure_penalty,
+        vizard_dir="./tmp_cluster/vizard" if args.use_render else None,
+        vizard_settings=dict(showLocationLabels=-
+                             1) if args.use_render else None,
     )
     return env
