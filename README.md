@@ -56,7 +56,7 @@ Even though we provide requirement.txt, it may have redundancy. We recommend tha
 * Follow the Basilisk installation steps: https://avslab.github.io/basilisk/Install.html 
 
 ### 2.2 BSK-RL (Basilisk + Reinforcement Learning)
-* Get BSK-RL from official repository: https://github.com/AVSLab/bsk_rl?tab=readme-ov-file
+* Get BSK-RL from here: https://anonymous.4open.science/r/bskrl-8FAF
 * Follow this page: https://avslab.github.io/bsk_rl/ for installation and guide
 
 ## 3.Train
