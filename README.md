@@ -5,14 +5,14 @@ A Multi-Satellite Earth Observation Mission Autonomy with MARL Algorithms as a s
 
 **Paper Title**: Multi-Satellite Earth Observation Mission Autonomy: A Realistic Case Study for Multi-Agent Reinforcement Learning
 
-**Video Link**: https://youtu.be/VWm5WG7XZ1Y
+**Scenario Video**: [Can be found here](https://drive.google.com/file/d/18fy9miCLcLgjJE3NyO3sQhaKT5QfPMSi/view?usp=sharing)
 
 This repository implements Centralized PPO, IPPO, MAPPO, and HAPPO a multi-agent variant of PPO to work with Basilisk (BSK-RL), a realistic satellite simulator with Vizard 3D visualization. This implementation is developed heavily based on https://github.com/marlbenchmark/on-policy as the official implementation of Multi-Agent PPO (MAPPO)(paper: https://arxiv.org/abs/2103.01955). 
 
 
 ## Realistic Satellite Simulator Environment supported:
 
-- Please install environment: [BSK-RL] (https://anonymous.4open.science/r/bskrl-8FAF). It is modified from the original version: [Basilisk (BSK-RL)](https://github.com/AVSLab/bsk_rl) and the original version does not work with our algorithm.
+- Please install environment: [BSK-RL](https://anonymous.4open.science/r/bskrl-8FAF). It is modified from the original version: [Basilisk (BSK-RL)](https://github.com/AVSLab/bsk_rl) and the original version does not work with our algorithm.
 
 ## 1. Usage
 
